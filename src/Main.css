@@ -1,0 +1,94 @@
+.Background {
+  background-color: #BCBCBE
+
+}
+
+.Main {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Main-header {
+  background-color: #f9f9f9;
+  height: 20%;
+  color: #485167;
+  margin-bottom: 1%;
+  display:flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Main-nav {
+  font-family: palatino;
+  font-size: 0.75em
+}
+
+.hide {
+  color: #f9f9f9;
+}
+
+
+.Main-title {
+  font-size: 3em;
+  font-family: palatino;
+  font-style: oblique 10deg;
+}
+
+.Main-section {
+  font-size: large;
+  background-color:#f9f9f9;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 1%;
+}
+
+.Desc {
+  font-family: palatino;
+  color: #485167
+}
+
+
+.Mts {
+  height: 40vh;
+  width: 90vw;
+}
+
+.Button {
+  font-family: palatino;
+  font-size: .75em;
+  border-radius: 5px;
+  padding: 1.5%;
+  margin: 1%;
+  background-color: #a8c7ea;
+}
+
+.Button:hover {
+  background-color: #485167;
+  color: white;
+}
+
+
+.Icon {
+  height: 5vh;
+  width: 3vw;
+}
+
+.Line {
+  color: #485167;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
