@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Home from './Home'
 import Resume from './Resume'
+import Projects from './Projects'
+import Contact from './Contact'
 import linkedin from './linkedin.png'
 import fb from './fb.svg'
 import './Main.css';
@@ -12,17 +14,27 @@ class Main extends Component {
   super(props);
   this.state = {
     home: true,
-    resume: false
+    resume: false,
+    projects: false,
+    contact: false
   }
 }
 
 
 toResume(){
-  this.setState({home: false, resume: true})
+  this.setState({home: false, resume: true, contact: false, projects: false})
 }
 
 toHome(){
-  this.setState({home: true, resume: false})
+  this.setState({home: true, resume: false, contact: false, projects: false})
+}
+
+toContact(){
+  this.setState({home: false, resume: false, contact: true, projects: false})
+}
+
+toProjects(){
+  this.setState({home: false, resume: false, contact: false, projects: true})
 }
 
 
@@ -33,20 +45,31 @@ toHome(){
           <div className="Main-section-top">
             <p className="Main-title" onClick={() => this.toHome()}>bailey siber</p>
             <div className="Nav-bar">
+            <p className="Main-nav">about me</p>
             <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
+            <p className="Main-nav" onClick={() => this.toProjects()}>projects</p>
             <p className="Main-nav">news</p>
-            <p className="Main-nav">projects</p>
-            <p className="Main-nav">contact</p>
+            <p className="Main-nav" onClick={() => this.toContact()}>contact</p>
             </div>
           </div>
 
           {this.state.home ?
-            <Home resume={this.toResume.bind(this)}/>
+            <Home/>
             :
             null
           }
           {this.state.resume ?
             <Resume />
+            :
+            null
+          }
+          {this.state.contact ?
+            <Contact />
+            :
+            null
+          }
+          {this.state.projects ?
+            <Projects />
             :
             null
           }

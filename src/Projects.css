@@ -1,0 +1,56 @@
+
+
+hr { margin-top: 0; }
+
+
+.label {
+  font-family: palatino;
+  color: #485167;
+  font-size: 0.7em;
+}
+
+.submit {
+  background-color: #dae2e8;
+  border-radius: 5px;
+  height: 30px;
+  width: 50px;
+}
+
+.input {
+  border-radius: 5px;
+  height: 20px;
+  width: 200px;
+}
+
+.message {
+  border-radius: 5px;
+  height: 200px;
+  width: 400px;
+}
+
+
+.Desc {
+  font-family: palatino;
+  color: #485167;
+  font-size: 0.7em;
+}
+
+
+.Button {
+  font-family: palatino;
+  font-size: .75em;
+  border-radius: 5px;
+  padding: 1.5%;
+  margin: 1%;
+  background-color: #dae2e8;
+}
+
+
+.Button:hover {
+  background-color: #485167;
+  color: white;
+}
+
+.Line {
+  color: #485167;
+}
