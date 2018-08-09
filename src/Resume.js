@@ -9,7 +9,7 @@ class Resume extends Component {
 
           <div className="Main-section">
 
-            <p className="Mission-header"> My Mission </p>
+            <p className="Mission-header"> my mission </p>
                 <p> </p>
             <p className="Mission">
               To harness my public health, clinical psychology, and computer science skills to make health systems/mental health
@@ -18,7 +18,7 @@ class Resume extends Component {
           <p> </p>
           <p> </p>
 
-            <p className="Header"> Education </p>
+            <p className="Header"> education </p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
@@ -62,7 +62,7 @@ class Resume extends Component {
 
             <p> </p>
 
-            <p className="Header"> Work Experience </p>
+            <p className="Header"> work experience </p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
@@ -193,7 +193,7 @@ class Resume extends Component {
             <p> </p>
 
 
-            <p className="Header"> Leadership Positions </p>
+            <p className="Header"> leadership positions </p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
@@ -245,21 +245,21 @@ class Resume extends Component {
             </div>
             <p> </p>
 
-            <p className="Header"> Skills </p>
+            <p className="Header"> skills </p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
                 <p> </p>
-                <p className="Desc">
+                <p className="Desc-info">
                   Languages:  Limited working proficiency in Spanish, Swahili, American Sign Language
                 </p>
-                <p className="Desc">
+                <p className="Desc-info">
                   Programming Languages: Javascript, C++, HTML5, CSS3
                 </p>
-                <p className="Desc">
+                <p className="Desc-info">
                   Software/Tooling: React, React Native, Node.js, Express.js, Passport.js, AJAX, jQuery, MongoDB, Git, Heroku, Webpack
                 </p>
-                <p className="Desc">
+                <p className="Desc-info">
                   Certifications: CITI (Human Research Subjects/Behavioral Research), Rape Crisis Counseling, Suicide Prevention Counseling
                 </p>
               </div>

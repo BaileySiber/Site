@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import mts from './mts.jpg'
+import building from './buildings.png'
 
 
 class Home extends Component {
@@ -9,10 +10,11 @@ class Home extends Component {
 
       <div>
 
-          <img src={mts} className="Mts" />
+          <img src={building} className="Mts" />
 
           <div className="Main-section">
             <hr className="Line"/>
+          <p> </p>
             <p className="Desc">
               I am a recent Summa Cum Laude graduate of Tufts
               University with a Bachelor's in Clinical Psychology,
