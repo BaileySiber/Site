@@ -1,53 +1,63 @@
-import React, { Component, Button } from 'react';
+import React, { Component } from 'react';
+import Home from './Home'
+import Resume from './Resume'
 import logo from './logo.svg';
-import './Main.css';
-import mts from './mts.jpg'
 import linkedin from './linkedin.png'
 import fb from './fb.svg'
 import medium from './medium.png'
+import me from './me.jpg'
 
 class Main extends Component {
+  constructor(props) {
+  super(props);
+  this.state = {
+    home: true,
+    resume: false
+  }
+}
+
+toResume(){
+  this.setState({home: false, resume: true})
+}
+
+toHome(){
+  this.setState({home: true, resume: false})
+}
+
+
   render() {
     return (
       <div className="Background">
         <div className="Main">
 
           <div className="Main-header">
-            <div>
-              <p className="Main-nav">resume</p>
+            <div className="Nav-bar">
+              <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
               <p className="Main-nav">news</p>
               <p className="Main-nav">projects</p>
               <p className="Main-nav">contact</p>
             </div>
             <div>
-              <h1 className="Main-title">bailey siber</h1>
+              <h1 className="Main-title" onClick={() => this.toHome()}>bailey siber</h1>
             </div>
             <div>
               <p className="hide">hi</p>
             </div>
           </div>
 
-          <img src={mts} className="Mts" />
+          {this.state.home ?
+            <Home resume={this.toResume.bind(this)}/>
+            :
+            null
+          }
 
-          <div className="Main-section">
-            <hr className="Line"/>
-            <p className="Desc">
-              I am a recent Summa Cum Laude graduate of Tufts
-              University with a Bachelor's in Clinical Psychology,
-              Community Health, and Computer Science.
-            </p>
-            <p className="Desc">
-              My interests
-              center around women's health, mental health, and
-              disparities in access to care based on gender,
-              race/ethnicity, and immigration status.
-            </p>
-            <hr className="Line"/>
-            <button className="Button"> resume </button>
-            <button className="Button"> news </button>
-            <button className="Button"> projects </button>
-            <button className="Button"> contact </button>
-          </div>
+          {this.state.resume ?
+            <Resume />
+            :
+            null
+          }
+
+
           <div className="Main-section">
             <a href="https://www.linkedin.com/in/bailey-siber-a0b63abb/">
             <img src={linkedin} className="Icon" />

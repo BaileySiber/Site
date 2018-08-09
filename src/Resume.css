@@ -1,6 +1,9 @@
+p { margin-top: -5px; }
+
+hr { margin-top: 0; }
+
 .Background {
   background-color: #dae2e8;
-
 }
 
 .Main {
@@ -51,16 +54,68 @@
 .Main-section {
   font-size: large;
   background-color:#f9f9f9;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 3%;
   padding-bottom: 3%;
   margin-bottom: 1%;
 }
 
+.Resume {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Header {
+  font-family: palatino;
+  color: #485167;
+}
+
+.Mission-header {
+  font-family: palatino;
+  color: #485167;
+  font-size: 1.5em;
+}
+
 .Desc {
   font-family: palatino;
-  color: #485167
+  color: #485167;
+  font-size: 0.7em;
+}
+
+.Mission {
+  font-family: palatino;
+  color: #485167;
+  font-size: 1em;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.Desc-info {
+  font-family: palatino;
+  color: #485167;
+  font-size: 0.6em;
+}
+
+.Desc-info-extra {
+  font-family: palatino;
+  color: #485167;
+  font-size: 0.6em;
+  padding-left: 3%;
 }
 
 
