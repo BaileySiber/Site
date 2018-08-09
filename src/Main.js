@@ -3,6 +3,7 @@ import Home from './Home'
 import Resume from './Resume'
 import Projects from './Projects'
 import Contact from './Contact'
+import Media from './Media'
 import linkedin from './linkedin.png'
 import fb from './fb.svg'
 import './Main.css';
@@ -16,25 +17,30 @@ class Main extends Component {
     home: true,
     resume: false,
     projects: false,
-    contact: false
+    contact: false,
+    media: false
   }
 }
 
 
 toResume(){
-  this.setState({home: false, resume: true, contact: false, projects: false})
+  this.setState({home: false, resume: true, contact: false, projects: false, media: false})
 }
 
 toHome(){
-  this.setState({home: true, resume: false, contact: false, projects: false})
+  this.setState({home: true, resume: false, contact: false, projects: false, media: false})
 }
 
 toContact(){
-  this.setState({home: false, resume: false, contact: true, projects: false})
+  this.setState({home: false, resume: false, contact: true, projects: false, media: false})
 }
 
 toProjects(){
-  this.setState({home: false, resume: false, contact: false, projects: true})
+  this.setState({home: false, resume: false, contact: false, projects: true, media: false})
+}
+
+toMedia(){
+  this.setState({home: false, resume: false, contact: false, projects: false, media: true})
 }
 
 
@@ -48,7 +54,7 @@ toProjects(){
             <p className="Main-nav">about me</p>
             <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
             <p className="Main-nav" onClick={() => this.toProjects()}>projects</p>
-            <p className="Main-nav">news</p>
+            <p className="Main-nav" onClick={() => this.toMedia()}>media</p>
             <p className="Main-nav" onClick={() => this.toContact()}>contact</p>
             </div>
           </div>
@@ -73,6 +79,12 @@ toProjects(){
             :
             null
           }
+          {this.state.media ?
+            <Media />
+            :
+            null
+          }
+
           <div className="Main-section">
             <a href="https://www.linkedin.com/in/bailey-siber-a0b63abb/">
             <img src={linkedin} className="Icon" />

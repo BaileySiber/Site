@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Projects.css';
 
 
-class Project extends Component {
+class Projects extends Component {
 
   render() {
     return (
@@ -34,4 +34,4 @@ class Project extends Component {
     )}
   }
 
-  export default Project;
+  export default Projects;
