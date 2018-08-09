@@ -8,8 +8,9 @@ class Resume extends Component {
       <div>
 
           <div className="Main-section">
+              <hr className="Line"/>
 
-            <p className="Mission-header"> my mission </p>
+            <p className="Mission-header"> <strong> my mission </strong></p>
                 <p> </p>
             <p className="Mission">
               To harness my public health, clinical psychology, and computer science skills to make health systems/mental health
@@ -18,13 +19,13 @@ class Resume extends Component {
           <p> </p>
           <p> </p>
 
-            <p className="Header"> education </p>
+            <p className="Header"> <strong> education </strong> </p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
                 <p> </p>
-                <p className="Desc">
-                  Tufts University
+                <p className="Desc" id="bold">
+                <strong> Tufts University </strong>
                 </p>
                 <p className="Desc">
                   B.A. Clinical Psychology, Community Health, Minor in Computer Science
@@ -34,7 +35,7 @@ class Resume extends Component {
                 </p>
                 <p> </p>
                 <p className="Desc">
-                  Horizons School of Technology
+                  <strong> Horizons School of Technology </strong>
                 </p>
                 <p className="Desc">
                   Fullstack Software Engineering Fellowship
@@ -62,13 +63,13 @@ class Resume extends Component {
 
             <p> </p>
 
-            <p className="Header"> work experience </p>
+            <p className="Header"> <strong> work experience </strong> </p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
                 <p> </p>
                 <p className="Desc">
-                  Massachusetts General Hospital, Disparities Research Unit,  Research Assistant
+                  <strong> Massachusetts General Hospital, Disparities Research Unit,  Research Assistant </strong>
                 </p>
                 <p className="Desc-info">
                   - Conducted 50+ structured/semi-structured interviews with participants
@@ -84,7 +85,7 @@ class Resume extends Component {
                 </p>
                 <p> </p>
                 <p className="Desc">
-                  Harvard University, Intergroup Relations Lab, Research Assistant
+                  <strong> Harvard University, Intergroup Relations Lab, Research Assistant </strong>
                 </p>
                 <p className="Desc-info">
                   - Recruited and ran study protocol with 100+ participants
@@ -97,7 +98,7 @@ class Resume extends Component {
                 </p>
                 <p> </p>
                 <p className="Desc">
-                  Tufts University, Office for Equal Opportunity, Program Developer
+                  <strong> Tufts University, Office for Equal Opportunity, Program Developer </strong>
                 </p>
                 <p className="Desc-info">
                   - Compiled resources for marginalized sexual assault survivors (undocumented, ESL, disabled, POC)
@@ -107,7 +108,7 @@ class Resume extends Component {
                 </p>
                 <p> </p>
                 <p className="Desc">
-                  McLean Hospital, Gunderson Residence, Community Residence Counselor
+                <strong>  McLean Hospital, Gunderson Residence, Community Residence Counselor </strong>
                 </p>
                 <p className="Desc-info">
                   - Utilized Dialectical Behavioral Therapy for treatment of Borderline Personality Disorder patients
@@ -120,7 +121,7 @@ class Resume extends Component {
                 </p>
                 <p> </p>
                 <p className="Desc">
-                  Nairobi Women’s Hospital, Gender Violence Recovery Center, Research Assistant
+                <strong>  Nairobi Women’s Hospital, Gender Violence Recovery Center, Research Assistant</strong>
                 </p>
                 <p className="Desc-info">
                   - Administered sexual violence climate surveys to 200+ community members
@@ -144,7 +145,7 @@ class Resume extends Component {
               <div className="Right">
                 <p> </p>
                 <p className="Desc">
-                  Boston, MA
+                Boston, MA
                 </p>
                 <p className="Desc">
                   2017 - 2018
@@ -193,13 +194,13 @@ class Resume extends Component {
             <p> </p>
 
 
-            <p className="Header"> leadership positions </p>
+            <p className="Header"><strong> leadership positions </strong></p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
                 <p> </p>
                 <p className="Desc">
-                  Tufts University, Action for Sexual Assault Prevention, President
+                <strong>  Tufts University, Action for Sexual Assault Prevention, President </strong>
                 </p>
                 <p className="Desc-info">
                   Developed survivor disclosures, perpetrator accountability, & community culture workshops; hosted for 30+ groups
@@ -209,14 +210,14 @@ class Resume extends Component {
                 </p>
                 <p> </p>
                 <p className="Desc">
-                  Tufts University, Presidential Steering Committee on Sexual Violence, Student Representative
+                  <strong> Tufts University, Presidential Steering Committee on Sexual Violence, Student Representative </strong>
                 </p>
                 <p className="Desc-info">
                   Advocated for student needs while collaborating with administration to propose University policy changes
                 </p>
                 <p> </p>
                 <p className="Desc">
-                  Tufts University, Computer Science Department,Teaching Assistant
+                <strong>  Tufts University, Computer Science Department,Teaching Assistant </strong>
                 </p>
                 <p className="Desc-info">
                   Led lab sessions, graded homework/exams, & hosted office hours for Introduction to C++ course
@@ -245,7 +246,7 @@ class Resume extends Component {
             </div>
             <p> </p>
 
-            <p className="Header"> skills </p>
+            <p className="Header"> <strong> skills </strong></p>
             <hr className="Line"/>
             <div className="Resume">
               <div className="Left">
@@ -264,9 +265,10 @@ class Resume extends Component {
                 </p>
               </div>
             </div>
+            <p></p>
+              <hr className="Line"/>
           </div>
   </div>
-
 )
 }
 }

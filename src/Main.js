@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Home from './Home'
 import Resume from './Resume'
-import logo from './logo.svg';
 import linkedin from './linkedin.png'
 import fb from './fb.svg'
+import './Main.css';
 import medium from './medium.png'
-import me from './me.jpg'
+
 
 class Main extends Component {
   constructor(props) {
@@ -15,6 +15,7 @@ class Main extends Component {
     resume: false
   }
 }
+
 
 toResume(){
   this.setState({home: false, resume: true})
@@ -29,19 +30,13 @@ toHome(){
     return (
       <div className="Background">
         <div className="Main">
-
-          <div className="Main-header">
+          <div className="Main-section-top">
+            <p className="Main-title" onClick={() => this.toHome()}>bailey siber</p>
             <div className="Nav-bar">
-              <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
-              <p className="Main-nav">news</p>
-              <p className="Main-nav">projects</p>
-              <p className="Main-nav">contact</p>
-            </div>
-            <div>
-              <h1 className="Main-title" onClick={() => this.toHome()}>bailey siber</h1>
-            </div>
-            <div>
-              <p className="hide">hi</p>
+            <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
+            <p className="Main-nav">news</p>
+            <p className="Main-nav">projects</p>
+            <p className="Main-nav">contact</p>
             </div>
           </div>
 
@@ -50,14 +45,11 @@ toHome(){
             :
             null
           }
-
           {this.state.resume ?
             <Resume />
             :
             null
           }
-
-
           <div className="Main-section">
             <a href="https://www.linkedin.com/in/bailey-siber-a0b63abb/">
             <img src={linkedin} className="Icon" />
