@@ -91,10 +91,18 @@ hr { margin-top: 0; }
   font-size: 1.5em;
 }
 
-.Desc {
+.DescL {
   font-family: palatino;
   color: #485167;
   font-size: 0.7em;
+  text-align: left;
+}
+
+.DescR {
+  font-family: palatino;
+  color: #485167;
+  font-size: 0.7em;
+  text-align: center;
 }
 
 .Mission {
@@ -106,19 +114,12 @@ hr { margin-top: 0; }
   padding-bottom: 5%;
 }
 
-.Desc-info {
+.Desc-info-L {
   font-family: palatino;
   color: #485167;
   font-size: 0.6em;
+  text-align: left;
 }
-
-.Desc-info-extra {
-  font-family: palatino;
-  color: #485167;
-  font-size: 0.6em;
-  padding-left: 3%;
-}
-
 
 .Mts {
   height: 40vh;

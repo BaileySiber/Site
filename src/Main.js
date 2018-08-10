@@ -4,6 +4,7 @@ import Resume from './Resume'
 import Projects from './Projects'
 import Contact from './Contact'
 import Media from './Media'
+import About from './About'
 import linkedin from './linkedin.png'
 import fb from './fb.svg'
 import './Main.css';
@@ -18,29 +19,34 @@ class Main extends Component {
     resume: false,
     projects: false,
     contact: false,
-    media: false
+    media: false,
+    about: false
   }
 }
 
 
 toResume(){
-  this.setState({home: false, resume: true, contact: false, projects: false, media: false})
+  this.setState({home: false, resume: true, contact: false, projects: false, media: false, about: false})
 }
 
 toHome(){
-  this.setState({home: true, resume: false, contact: false, projects: false, media: false})
+  this.setState({home: true, resume: false, contact: false, projects: false, media: false, about: false})
 }
 
 toContact(){
-  this.setState({home: false, resume: false, contact: true, projects: false, media: false})
+  this.setState({home: false, resume: false, contact: true, projects: false, media: false, about: false})
 }
 
 toProjects(){
-  this.setState({home: false, resume: false, contact: false, projects: true, media: false})
+  this.setState({home: false, resume: false, contact: false, projects: true, media: false, about: false})
 }
 
 toMedia(){
-  this.setState({home: false, resume: false, contact: false, projects: false, media: true})
+  this.setState({home: false, resume: false, contact: false, projects: false, media: true, about: false})
+}
+
+toAbout(){
+  this.setState({home: false, resume: false, contact: false, projects: false, media: false, about: true})
 }
 
 
@@ -51,7 +57,7 @@ toMedia(){
           <div className="Main-section-top">
             <p className="Main-title" onClick={() => this.toHome()}>bailey siber</p>
             <div className="Nav-bar">
-            <p className="Main-nav">about me</p>
+            <p className="Main-nav" onClick={() => this.toAbout()}>about me</p>
             <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
             <p className="Main-nav" onClick={() => this.toProjects()}>projects</p>
             <p className="Main-nav" onClick={() => this.toMedia()}>media</p>
@@ -81,6 +87,11 @@ toMedia(){
           }
           {this.state.media ?
             <Media />
+            :
+            null
+          }
+          {this.state.about ?
+            <About />
             :
             null
           }

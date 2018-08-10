@@ -1,0 +1,27 @@
+import React, { Component } from 'react';
+import './About.css';
+
+
+class About extends Component {
+
+  render() {
+    return (
+      <div>
+        <div className="Home-section">
+          <hr className="Line"/>
+
+          <p className="Desc"><strong>hi, it's nice to meet you!</strong></p>
+          <p className="DescOne">here is some more about me...</p>
+          <p className="DescTwo"> - i strive to use technology to improve mental health care in a sustainable & accessible manner </p>
+          <p className="DescTwo"> - i am dedicated to seeking justice for survivors of sexual violence </p>
+          <p className="DescTwo"> - i am a proud middle eastern woman in STEM & am passionate about making the field more inclusive </p>
+          <p className="DescTwo"> - my home city is boston, massachusetts & there is no where better in the world</p>
+          <p className="DescTwo"> - i love to volunteer, sing, & hike whenever possible </p>
+          <p></p>
+          <hr className="Line"/>
+        </div>
+      </div>
+    )}
+  }
+
+  export default About;
