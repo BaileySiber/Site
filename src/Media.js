@@ -18,7 +18,7 @@ class Media extends Component {
           <p></p>
           <p></p>
 
-          <img src={ihh} className="ihh"></img>
+          {/* <img src={ihh} className="ihh"></img> */}
           <p></p>
           <p></p>
 

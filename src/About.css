@@ -6,7 +6,7 @@ hr { margin-top: 0; }
 .Desc {
   font-family: palatino;
   color: #485167;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .link {
@@ -21,6 +21,12 @@ hr { margin-top: 0; }
   color: #485167;
   font-size: .8em;
   text-align: center;
+}
+
+.Bailey {
+  margin-top: .5%;
+  height: 55vh;
+  width: 38vw;
 }
 
 .DescTwo {

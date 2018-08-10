@@ -50,6 +50,10 @@ p {margin-bottom: 0;}
   font-style: bold;
 }
 
+.Main-title:hover {
+  color: #a8c7ea;
+}
+
 .Main-section {
   font-size: large;
   background-color:#f9f9f9;
