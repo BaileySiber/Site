@@ -40,7 +40,7 @@ class Contact extends Component {
 
   onClick = (event) => {
     event.preventDefault();
-    fetch('http://localhost:3001/contact', {
+    fetch('/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ class Contact extends Component {
     })
     .catch(err => console.log('error saving message' + err))
   }
-  
+
 
   render() {
     return (

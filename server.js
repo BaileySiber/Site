@@ -16,7 +16,7 @@ const Message = mongoose.model('Message', {
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json())
 
-app.post('/contact', function (req, res) {
+app.post('/api/contact', function (req, res) {
   console.log(req.body)
   new Message(req.body)
     .save()
