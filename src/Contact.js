@@ -53,9 +53,8 @@ class Contact extends Component {
         message: this.state.message
       })
     })
-    .then(result => result.json())
-    .then(json => {
-      if(json.status === 200){
+    .then(response => {
+      if(response.status === 200){
         console.log('saved yay!')
         this.setState({
           saved: true
