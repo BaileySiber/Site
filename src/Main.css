@@ -17,7 +17,7 @@ p {margin-bottom: 0;}
 
 .Main-section-top {
   font-size: large;
-  background-color:#f9f9f9;
+  background-color:#dae2e8;
   padding-top: 1%;
   padding-left: 10%;
   padding-right: 10%;
@@ -46,6 +46,7 @@ p {margin-bottom: 0;}
 
 .Main-title {
   font-size: 3em;
+  margin: 0;
   font-family: palatino;
   font-style: bold;
 }
@@ -55,12 +56,11 @@ p {margin-bottom: 0;}
 }
 
 .Main-section {
-  font-size: large;
-  background-color:#f9f9f9;
+  text-align: center;
+  background-color:#dae2e8;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
-  padding-bottom: 1%;
 }
 
 .Desc {
@@ -97,6 +97,8 @@ p {margin-bottom: 0;}
 .Line {
   color: #485167;
 }
+
+
 
 
 

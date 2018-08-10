@@ -16,14 +16,13 @@ const Message = mongoose.model('Message', {
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json())
 
-app.post('/create', function (req, res) {
+app.post('/contact', function (req, res) {
   console.log(req.body)
   new Message(req.body)
     .save()
-    .then((result) => res.json(result)
+    .then((result) => res.json(result))
     .catch((err) => res.status(500).end(err.message))
-    console.log('message saved to MongoDB')
 });
 
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3001);

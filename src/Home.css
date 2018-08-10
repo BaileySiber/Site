@@ -1,60 +1,23 @@
+div { margin: 0; }
+
+
 .Background {
   background-color: #dae2e8;
-  height: 100%;
-
-}
-
-.Main {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.Main-header {
-  background-color: #f9f9f9;
-  height: 20%;
-  color: #485167;
-  display:flex;
-  padding-left: 5%;
-  padding-right: 5%;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.Nav-bar {
-  padding-top: 4%;
-}
-
-.Main-nav {
-  font-family: palatino;
-  font-size: 0.75em;
-  color: #485167;
-}
-
-.Main-nav:hover {
-  color: #a8c7ea;
-}
-
-.hide {
-  color: #f9f9f9;
-}
-
-
-.Main-title {
-  font-size: 3em;
-  font-family: palatino;
-  font-style: oblique 10deg;
 }
 
 .Home-section {
   font-size: large;
-  background-color:#f9f9f9;
+  background-color:#dae2e8;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2%;
   padding-bottom: 1%;
+}
+
+.Sun {
+  padding: 2vh;
+  height: 15vh;
+  width: 10vw;
 }
 
 .Welcome {
@@ -66,32 +29,162 @@
   margin: 0%
 }
 
-.Mts {
-  margin-top: .5%;
-  height: 30vh;
-  width: 90vw;
+.Clouds {
+  height: 10vh;
 }
 
-
-.Button {
-  font-family: palatino;
-  font-size: .75em;
-  border-radius: 5px;
-  padding: 1.5%;
-  background-color: #a8c7ea;
+.Buildings {
+  margin-top: 5%;
+  height: 20vh;
+  width: 80vw;
 }
 
-.Button:hover {
-  background-color: #485167;
-  color: white;
-}
-
-
-.Icon {
-  height: 5vh;
-  width: 3vw;
-}
 
 .Line {
   color: #485167;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -400px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -400px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -400px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+	-webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+
+	-webkit-transform: scale(0.15);
+	-moz-transform: scale(0.15);
+	transform: scale(0.15);
+  position: absolute;
+  padding-top: 3%;
+}
+
+.x2 {
+	-webkit-animation: animateCloud 40s linear infinite;
+	-moz-animation: animateCloud 40s linear infinite;
+	animation: animateCloud 40s linear infinite;
+
+	-webkit-transform: scale(0.1);
+	-moz-transform: scale(0.1);
+	transform: scale(0.1);
+  position: absolute;
+}
+
+.x3 {
+	-webkit-animation: animateCloud 30s linear infinite;
+	-moz-animation: animateCloud 30s linear infinite;
+	animation: animateCloud 30s linear infinite;
+
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+  position: absolute;
+  padding-bottom: 5%;
+  padding-right: 25%;
+}
+
+.x4 {
+	-webkit-animation: animateCloud 50s linear infinite;
+	-moz-animation: animateCloud 50s linear infinite;
+	animation: animateCloud 50s linear infinite;
+
+	-webkit-transform: scale(0.125);
+	-moz-transform: scale(0.125);
+	transform: scale(0.125);
+  position: absolute;
+  padding-top: 3%;
+}
+
+.x5 {
+	-webkit-animation: animateCloud 45s linear infinite;
+	-moz-animation: animateCloud 45s linear infinite;
+	animation: animateCloud 45s linear infinite;
+
+	-webkit-transform: scale(0.175);
+	-moz-transform: scale(0.175);
+	transform: scale(0.175);
+  position: absolute;
+  padding-top: 8%;
+  padding-right: 15%;
+}
+
+/* OBJECTS */
+
+.cloud {
+	background: #fff;
+	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
+	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+	height: 100px;
+	position: relative;
+	width: 330px;
+}
+
+.cloud:after, .cloud:before {
+  background: #fff;
+	content: '';
+	position: absolute;
+	z-indeX: -1;
+}
+
+.cloud:after {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	height: 80px;
+	left: 50px;
+	top: -50px;
+	width: 80px;
+}
+
+.cloud:before {
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+
+	width: 160px;
+	height: 160px;
+	right: 50px;
+	top: -90px;
 }

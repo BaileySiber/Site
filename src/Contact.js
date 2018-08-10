@@ -39,10 +39,12 @@ class Contact extends Component {
   }
 
   onClick = (event) => {
-    fetch('/contact', {
+    event.preventDefault();
+    fetch('http://localhost:3001/contact', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'credentials': 'same-origin',
       },
       body: JSON.stringify({
         name: this.state.name,
@@ -54,6 +56,7 @@ class Contact extends Component {
     .then(result => result.json())
     .then(json => {
       if(json.status === 200){
+        console.log('saved yay!')
         this.setState({
           saved: true
         })
