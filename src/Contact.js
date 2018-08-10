@@ -63,6 +63,7 @@ class Contact extends Component {
     })
     .catch(err => console.log('error saving message' + err))
   }
+  
 
   render() {
     return (
