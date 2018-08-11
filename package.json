@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "concurrently": "^3.6.1",
     "mongoose": "^5.2.7",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
@@ -11,7 +12,7 @@
     "react-transition-group": "^1.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently -k 'node server.js' 'react-scripts start'",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
