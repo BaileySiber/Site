@@ -13,7 +13,7 @@ class Resume extends Component {
             <p className="Mission-header"> <strong> my mission </strong></p>
                 <p> </p>
             <p className="Mission">
-              To harness my public health, clinical psychology, and computer science skills to make health systems/mental health
+              to harness my public health, clinical psychology, and computer science skills to make health systems/mental health
               care more accessible, particularly to marginalized communities and those affected by gender based violence
             </p>
           <p> </p>

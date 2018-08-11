@@ -13,7 +13,7 @@ class Media extends Component {
           <p></p>
           <p></p>
 
-          <p className="Desc"><strong>Sexual Violence Prevention/Response</strong></p>
+          <p className="Desc"><strong>sexual violence prevention & response work</strong></p>
 
           <p></p>
           <p></p>

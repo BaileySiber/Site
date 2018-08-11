@@ -10,7 +10,7 @@ class Projects extends Component {
         <div className="Home-section">
           <hr className="Line"/>
           <p></p>
-          <p className="Desc">Videos to come!</p>
+          <p className="Desc">videos to come!</p>
           <p></p>
           <p></p>
           <a href="https://github.com/BaileySiber/HeadSmart-Frontend">

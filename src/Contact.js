@@ -67,45 +67,49 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
+      
+      <div className="Background">
         <div className="Home-section">
           <hr className="Line"/>
 
           {this.state.saved ?
 
+            <div>
             <p className="Desc">
-              Your message was saved!
+              your message was saved!
             </p>
+              <p></p>
+            </div>
 
             :
 
             <div>
               <p className="Desc">
-                Please fill out this form, and I will be in touch ASAP!
+                please fill out this form, and i will be in touch asap!
               </p>
               <p></p>
 
               <form>
                 <label className="label">
-                  Name*:
+                  name*:
                   <p></p>
                   <textarea onChange={this.onNameChange} className="input" type="text" name="name" />
                 </label>
                 <p></p>
                 <label className="label">
-                  Email Address*:
+                  email address*:
                   <p></p>
                   <textarea onChange={this.onEmailChange} className="input" type="text" name="email" />
                 </label>
                 <p></p>
                 <label className="label">
-                  Subject*:
+                  subject*:
                   <p></p>
                   <textarea onChange={this.onSubjectChange} className="input" type="text" name="email" />
                 </label>
                 <p></p>
                 <label className="label">
-                  Message*:
+                  message*:
                   <p></p>
                   <textarea onChange={this.onMessageChange} className="message" type="textarea" name="message" />
                 </label>
