@@ -174,7 +174,7 @@ class Resume extends Component {
                 <p> </p>
                 <p> </p>
                 <p className="DescR">
-                  Kenya, Nairobi
+                  Nairobi, Kenya
                 </p>
                 <p className="DescR">
                   2015 - 2016
