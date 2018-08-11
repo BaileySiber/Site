@@ -26,10 +26,9 @@ p {margin-bottom: 0;}
 }
 
 
-
 .Nav-bar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 1%;
 }
 
@@ -70,26 +69,6 @@ p {margin-bottom: 0;}
 }
 
 
-.Mts {
-  height: 40vh;
-  width: 90vw;
-}
-
-.Button {
-  font-family: palatino;
-  font-size: .75em;
-  border-radius: 5px;
-  padding: 1.5%;
-  margin: 1%;
-  background-color: #a8c7ea;
-}
-
-.Button:hover {
-  background-color: #485167;
-  color: white;
-}
-
-
 .Icon {
   height: 5vh;
   width: 3vw;
@@ -97,15 +76,4 @@ p {margin-bottom: 0;}
 
 .Line {
   color: #485167;
-}
-
-
-
-
-
-
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
