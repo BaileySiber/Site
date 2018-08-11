@@ -16,6 +16,10 @@ const Message = mongoose.model('Message', {
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json())
 
+app.get('/api/test', function(req, res) {
+  res.send('success');
+});
+
 app.post('/api/contact', function (req, res) {
   console.log(req.body)
   new Message(req.body)
