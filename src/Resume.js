@@ -246,11 +246,15 @@ class Resume extends Component {
                   Languages:  Limited working proficiency in Spanish, Swahili, American Sign Language
                 </p>
                 <p className="Desc-info-L">
-                  Programming Languages: Javascript, C++, HTML5, CSS3
+                  Programming Languages: Javascript, C++, HTML5, CSS3, Python, SPSS, Stata, R
                 </p>
                 <p className="Desc-info-L">
-                  Software/Tooling: React, React Native, Node.js, Express.js, Passport.js, AJAX, jQuery, MongoDB, Git, Heroku, Webpack
+                  Software Tooling: React, React Native, Node.js, Express.js, Passport.js, AJAX, jQuery, MongoDB, Git, Heroku
                 </p>
+                <p className="Desc-info-L">
+                  Other Software: REDCap, Epic, Tableau, Excel
+                </p>
+
                 <p className="Desc-info-L">
                   Certifications: CITI (Human Research Subjects/Behavioral Research), Rape Crisis Counseling, Suicide Prevention Counseling
                 </p>

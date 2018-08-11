@@ -67,7 +67,7 @@ class Contact extends Component {
 
   render() {
     return (
-      
+
       <div className="Background">
         <div className="Home-section">
           <hr className="Line"/>
@@ -85,7 +85,7 @@ class Contact extends Component {
 
             <div>
               <p className="Desc">
-                please fill out this form, and i will be in touch asap!
+                please fill out this form - i will be in touch asap
               </p>
               <p></p>
 
