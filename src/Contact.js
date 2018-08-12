@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Contact.css';
+import fox from './fox.png'
 
 
 class Contact extends Component {
@@ -10,7 +11,7 @@ class Contact extends Component {
       email: '',
       subject: '',
       message: '',
-      saved: false
+      saved: true
     }
   }
 
@@ -78,6 +79,7 @@ class Contact extends Component {
             <p className="Desc">
               your message was saved!
             </p>
+            <img src={fox} className="fox" />
               <p></p>
             </div>
 
