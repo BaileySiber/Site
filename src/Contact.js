@@ -11,7 +11,7 @@ class Contact extends Component {
       email: '',
       subject: '',
       message: '',
-      saved: true
+      saved: false
     }
   }
 
