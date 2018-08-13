@@ -1,1 +1,1 @@
-Website with my resume, projects, etc
+My website!! Shows resume, projects, info about me, etc
