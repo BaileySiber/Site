@@ -16,52 +16,12 @@ hr { margin-top: 0; }
   text-align: left;
 }
 
-.DescOne {
-  font-family: palatino;
-  color: #485167;
-  font-size: .8em;
-  text-align: left;
-}
-
-.Container {
-  display: flex;
-  flex-direction: row;
-}
-
-.Right {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.Left {
-  padding-left: 5%;
-}
 
 .item {
   font-family: palatino;
   color: #485167;
   font-size: .8em;
   text-align: center;
-}
-
-.ihh {
-  height: 45vh;
-  width: 50vw;
-}
-
-.Button {
-  font-family: palatino;
-  font-size: .75em;
-  border-radius: 5px;
-  padding: 1.5%;
-  margin: 1%;
-  background-color: #dae2e8;
-}
-
-
-.Button:hover {
-  background-color: #485167;
-  color: white;
 }
 
 .Line {

@@ -19,9 +19,9 @@ class Home extends Component {
   render() {
     return (
 
-      <div >
-
+      <div>
           <div className="Clouds">
+
 
           {!this.state.x1bool && !this.state.x2bool && !this.state.x3bool && !this.state.x4bool && !this.state.x5bool  ?
 
@@ -54,7 +54,6 @@ class Home extends Component {
               : null
             }
 
-
             {this.state.x4bool ?
               <div onClick={()=> this.setState({x4bool:false})} class="x4">
                 <div class="cloud"></div>
@@ -71,8 +70,6 @@ class Home extends Component {
             </div>
 
           }
-
-
 
             </div>
 

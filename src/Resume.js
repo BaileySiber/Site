@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import './Resume.css';
 
-
 class Resume extends Component {
   render() {
     return (
       <div>
-
           <div className="Main-section">
               <hr className="Line"/>
 
@@ -60,9 +58,7 @@ class Resume extends Component {
                 </p>
               </div>
             </div>
-
             <p> </p>
-
             <p className="Header"> <strong> work experience </strong> </p>
             <hr className="Line"/>
             <div className="Resume">

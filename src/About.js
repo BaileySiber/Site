@@ -5,17 +5,14 @@ import bailey from './bailey.jpg'
 
 class About extends Component {
 
+
   render() {
     return (
-      <div>
-        <div className="Home-section">
+      <div className="Container">
           <hr className="Line"/>
-
           <p className="Desc"><strong>hi, it's nice to meet you!</strong></p>
-<p></p>
+          <p></p>
             <img src={bailey} className="Bailey" />
-
-
           <p className="DescOne"><strong>some things about me...</strong></p>
           <p className="DescTwo"> - i strive to use technology to improve mental health care in a sustainable & accessible manner </p>
           <p className="DescTwo"> - i am dedicated to seeking justice for survivors of sexual violence </p>
@@ -25,7 +22,6 @@ class About extends Component {
           <p className="DescTwo"> - i don't like being surprised, but i love surprising others (hint: play with the clouds on my home page!) </p>
           <p></p>
           <hr className="Line"/>
-        </div>
       </div>
     )}
   }

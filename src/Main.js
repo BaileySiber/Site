@@ -11,8 +11,6 @@ import fb from './fb.svg'
 import './Main.css';
 import medium from './medium.png'
 
-
-
 class Main extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +23,6 @@ class Main extends Component {
       about: false
     }
   }
-
 
   toResume(){
     this.setState({home: false, resume: true, contact: false, projects: false, media: false, about: false})
