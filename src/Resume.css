@@ -1,13 +1,17 @@
 
 hr { margin-top: 0; }
+div { margin: 0 ; }
 
 .Main-section {
   font-size: large;
   background-color:#f9f9f9;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3%;
 }
 
 .Resume {
@@ -43,7 +47,7 @@ hr { margin-top: 0; }
 .DescL {
   font-family: palatino;
   color: #485167;
-  font-size: 90%;
+  font-size: 100%;
   text-align: left;
 }
 
@@ -60,7 +64,7 @@ hr { margin-top: 0; }
   font-size: 90%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .Desc-info-L {
@@ -68,6 +72,14 @@ hr { margin-top: 0; }
   color: #485167;
   font-size: 80%;
   text-align: left;
+}
+
+.Desc-extra-L {
+  font-family: palatino;
+  color: #485167;
+  font-size: 80%;
+  text-align: left;
+  margin-left: 5%;
 }
 
 .Line {
