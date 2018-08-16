@@ -6,13 +6,13 @@ hr { margin-top: 0; }
 .Desc {
   font-family: palatino;
   color: #485167;
-  font-size: 1.2em;
+  font-size: 150%;
 }
 
 .DescOne {
   font-family: palatino;
   color: #485167;
-  font-size: .8em;
+  font-size: 120%;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ hr { margin-top: 0; }
 .DescTwo {
   font-family: palatino;
   color: #485167;
-  font-size: .7em;
+  font-size: 90%;
   text-align: center;
 }
 

@@ -6,7 +6,7 @@ hr { margin-top: 0; }
 .label {
   font-family: palatino;
   color: #485167;
-  font-size: 0.7em;
+  font-size: 90%;
 }
 
 .submit {
@@ -38,7 +38,7 @@ hr { margin-top: 0; }
 .Desc {
   font-family: palatino;
   color: #485167;
-  font-size: 0.7em;
+  font-size: 80%;
 }
 
 

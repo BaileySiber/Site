@@ -6,13 +6,13 @@ hr { margin-top: 0; }
 .Desc {
   font-family: palatino;
   color: #485167;
-  font-size: 1em;
+  font-size: 100%;
 }
 
 .link {
   font-family: palatino;
   color: #485167;
-  font-size: 1em;
+  font-size: 100%;
   text-align: left;
 }
 
@@ -20,7 +20,7 @@ hr { margin-top: 0; }
 .item {
   font-family: palatino;
   color: #485167;
-  font-size: .8em;
+  font-size: 90%;
   text-align: center;
 }
 
