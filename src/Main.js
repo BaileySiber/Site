@@ -109,6 +109,10 @@ class Main extends Component {
         <img src={fb} className="Icon" />
       </a>
     </div>
+
+    <div>
+      <p className="bottomTwo">(c) bailey siber 2018</p>
+    </div>
   </div>
 );
 }

@@ -43,6 +43,20 @@ p {margin-bottom: 0;}
   color: #a8c7ea;
 }
 
+.bottomOne {
+  text-align: center;
+  font-size: small;
+  color: #485167;
+  margin-bottom: 1%;
+}
+
+.bottomTwo {
+  text-align: center;
+  font-size: small;
+  color: #485167;
+  margin-bottom: 5%;
+}
+
 
 .Main-title {
   font-size: 3em;
@@ -61,7 +75,7 @@ p {margin-bottom: 0;}
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 1%;
-  padding-bottom: 8%;
+  padding-bottom: 1%;
 }
 
 .Desc {
@@ -71,8 +85,8 @@ p {margin-bottom: 0;}
 
 
 .Icon {
-  height: 6%;
-  width: 4%;
+  height: 5%;
+  width: 3%;
 }
 
 .Line {

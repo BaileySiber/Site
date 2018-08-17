@@ -87,7 +87,7 @@ class Contact extends Component {
 
             <div>
               <p className="Desc">
-                please fill out this form - i will be in touch asap!
+                fill this out and i will be in touch :)
               </p>
               <p></p>
 
