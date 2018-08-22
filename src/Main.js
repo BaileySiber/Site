@@ -98,15 +98,15 @@ class Main extends Component {
             }
             </div>
 
-          <div className="Main-section">
+          <div className="Icons">
             <a href="https://www.linkedin.com/in/bailey-siber-a0b63abb/">
-            <img src={linkedin} className="Icon" />
+            <img src={linkedin} className="Link" />
           </a>
           <a href="https://medium.com/@baileysiber37">
-          <img src={medium} className="Icon" />
+          <img src={medium} className="Med" />
         </a>
         <a href="https://www.facebook.com/bailey.siber.5">
-        <img src={fb} className="Icon" />
+        <img src={fb} className="Fb" />
       </a>
     </div>
 

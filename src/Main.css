@@ -60,6 +60,7 @@ p {margin-bottom: 0;}
 
 .Main-title {
   font-size: 3em;
+  padding-top: 5%;
   margin: 0;
   font-family: palatino;
   font-style: bold;
@@ -78,15 +79,37 @@ p {margin-bottom: 0;}
   padding-bottom: 1%;
 }
 
+.Icons {
+  text-align: center;
+  justify-content: center;
+  background-color:#dae2e8;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 .Desc {
   font-family: palatino;
   color: #485167
 }
 
 
-.Icon {
-  height: 5%;
-  width: 3%;
+.Link {
+  height: 6%;
+  width: 4%;
+}
+
+.Med {
+  height: 6%;
+  width: 4%;
+  padding-bottom: 0.5%;
+}
+
+.Fb {
+  padding-top: 0.5%;
+  height: 6.5%;
+  width: 4.5%;
 }
 
 .Line {
