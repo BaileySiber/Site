@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import bailey from './beelee.png'
+import bailey from './newb.png'
 
 
 class About extends Component {
