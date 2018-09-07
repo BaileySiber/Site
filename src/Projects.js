@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css';
+import git from './git.png';
 
 
 class Projects extends Component {
@@ -9,37 +10,84 @@ class Projects extends Component {
       <div>
         <div className="Home-section">
           <hr className="Line"/>
-          <p></p>
-          <p></p>
-          <p></p>
-          <a href="https://github.com/BaileySiber/HeadSmart-Frontend">
-          <p className="Desc">
-            Mental Health App: HeadSmart
-          </p>
-        </a>
-          <p></p>
-          <a href="https://github.com/BaileySiber/SassySlacky">
-          <p className="Desc">
-            Slack Bot: Sassy
-          </p>
-          <p></p>
 
-
-<iframe title="slackbot" width="560" height="315" src="https://www.youtube.com/embed/acwEWRaiVmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
+          <div className="header">
+            <p className="Desc">
+              HeadSmart
+            </p>
+            <a href="https://github.com/BaileySiber/HeadSmart-Frontend">
+            <img src={git} className="git" />
           </a>
-          <p></p>
-          <a href="https://github.com/BaileySiber/CouldntShareLess">
-          <p className="Desc">
-            Google Docs Clone: Couldn't Share Less
-          </p>
-          </a>
-          <p></p>
-          <hr className="Line"/>
         </div>
-      </div>
-    )}
-  }
 
-  export default Projects;
+        <p className="DescMedium">
+          Mental health app to help users track and improve their mood overtime
+        </p>
+
+        <p className="DescLittle">
+          Coming Soon - Look for us on the App Store in 2019!
+        </p>
+        <p className="DescLittle">
+          Please contact me if you are interested in beta testing :)
+        </p>
+
+        <br/>
+
+        <p></p>
+
+        <hr className="LineTwo"/>
+
+        <div className="header">
+          <p className="Desc">
+            Sassy Bot
+          </p>
+          <a href="https://github.com/BaileySiber/SassySlacky">
+          <img src={git} className="git" />
+        </a>
+      </div>
+
+      <p className="DescMedium">
+        A slack bot to schedule reminders and meetings
+      </p>
+
+      <p></p>
+
+
+      <iframe title="slackbot" width="560" height="315" src="https://www.youtube.com/embed/acwEWRaiVmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+      <p></p>
+
+      <hr className="LineTwo"/>
+
+
+
+      <div className="header">
+        <p className="Desc">
+          Couldn't Share Less
+        </p>
+        <a href="https://github.com/BaileySiber/CouldntShareLess">
+        <img src={git} className="git" />
+      </a>
+    </div>
+
+    <p className="DescMedium">
+      A clone of Google Docs used for collaborating on documents
+    </p>
+
+    <p></p>
+
+    <p></p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gnjY_px-JF4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    <p></p>
+
+
+    <hr className="Line"/>
+  </div>
+</div>
+)}
+}
+
+export default Projects;
