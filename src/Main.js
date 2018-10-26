@@ -113,6 +113,7 @@ class Main extends Component {
     <div>
       <p className="bottomTwo">(c) bailey siber 2018</p>
     </div>
+
   </div>
 );
 }
