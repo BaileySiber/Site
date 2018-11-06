@@ -46,7 +46,7 @@ class Resume extends Component {
         <div className="Row">
           <div className="Left">
             <p className="DescL"><strong>Collective Health, Operations Associate</strong></p>
-            <p className="Desc-info-L">pearhead strategies to optimize efficiency and scalability, build internal tools to improve processes</p>
+            <p className="Desc-info-L">Spearhead strategies to optimize efficiency and scalability, build internal tools to improve processes</p>
             <p className="Desc-info-L">Process medical claims and collaborate with member advocates to resolve complicated health plan questions</p>
             <p className="Desc-info-L">Track accuracy and timeliness around core metrics and troubleshoot operational challenges</p>
             <p className="Desc-info-L"><strong>Software: Excel, Javascript, SQL</strong></p>
