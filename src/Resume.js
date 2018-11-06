@@ -45,6 +45,20 @@ class Resume extends Component {
 
         <div className="Row">
           <div className="Left">
+            <p className="DescL"><strong>Collective Health, Operations Associate</strong></p>
+            <p className="Desc-info-L">pearhead strategies to optimize efficiency and scalability, build internal tools to improve processes</p>
+            <p className="Desc-info-L">Process medical claims and collaborate with member advocates to resolve complicated health plan questions</p>
+            <p className="Desc-info-L">Track accuracy and timeliness around core metrics and troubleshoot operational challenges</p>
+            <p className="Desc-info-L"><strong>Software: Excel, Javascript, SQL</strong></p>
+          </div>
+          <div className="Right">
+            <p className="DescR">San Francisco, CA</p>
+            <p className="DescR">Oct 2018 - present</p>
+          </div>
+        </div>
+
+        <div className="Row">
+          <div className="Left">
             <p className="DescL"><strong>Massachusetts General Hospital, Disparities Research Unit, Research Assistant</strong></p>
             <p className="Desc-info-L">Conducted 50+ structured/semi-structured interviews with participants</p>
             <p className="Desc-info-L">Developed worksheets, surveys, & questionnaires administered to participants</p>
@@ -113,6 +127,18 @@ class Resume extends Component {
 
           <p className="Header"> <strong> leadership positions </strong> </p>
           <hr className="Line"/>
+
+          <div className="Row">
+            <div className="Left">
+              <p className="DescL"><strong>Every Voice Coalition, Steering Committee Member</strong></p>
+              <p className="Desc-info-L">Co-lead grassroots organization focused on political advocacy and community building around sexual violence prevention</p>
+              <p className="Desc-info-L">Plan, organize, and spearhead all grant-based, peer-to-peer, and philanthropic fundraising efforts </p>
+              <p className="Desc-info-L">Manage budgets, financial resources, and expenses for all Every Voice  initiatives</p>
+            </div>
+            <div className="Right">
+              <p className="DescR">Feb 2018 - present</p>
+            </div>
+          </div>
 
           <div className="Row">
             <div className="Left">
