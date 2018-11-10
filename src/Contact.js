@@ -124,7 +124,7 @@ class Contact extends Component {
                   <textarea onChange={this.onMessageChange} className="message" type="textarea" name="message" />
                 </label>
                 <p></p>
-                <input className="Button" onClick={this.onClick} type="submit" value="Submit" />
+                <input className="Button" onClick={this.onClick} type="submit" value="submit" />
               </form>
 
               <p></p>
