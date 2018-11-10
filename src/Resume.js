@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Resume.css';
+import BaileySiberResume from './BaileySiberResume.pdf'
 
 class Resume extends Component {
   render() {
@@ -49,7 +50,7 @@ class Resume extends Component {
             <p className="Desc-info-L">Spearhead strategies to optimize efficiency and scalability, build internal tools to improve processes</p>
             <p className="Desc-info-L">Process medical claims and collaborate with member advocates to resolve complicated health plan questions</p>
             <p className="Desc-info-L">Track accuracy and timeliness around core metrics and troubleshoot operational challenges</p>
-            <p className="Desc-info-L"><strong>Software: Excel, Javascript, SQL</strong></p>
+            <p className="Desc-info-L"><strong>Software: Excel, Javascript, Python, SQL</strong></p>
           </div>
           <div className="Right">
             <p className="DescR">San Francisco, CA</p>
@@ -118,85 +119,90 @@ class Resume extends Component {
             <p className="Desc-info-L">Presentations: United Nations Women Gender-Based Violence Conference, School for International Training Conference,</p>
             <p className="Desc-extra-L"> Tufts University Beyond the Classroom, Tufts University Research Symposium</p>
             <p className="Desc-info-L"><strong>Software: Excel, Python, Stata</strong></p>
-            </div>
-            <div className="Right">
-              <p className="DescR">Nairobi, Kenya</p>
-              <p className="DescR">2015 - 2016</p>
-            </div>
           </div>
-
-          <p className="Header"> <strong> leadership positions </strong> </p>
-          <hr className="Line"/>
-
-          <div className="Row">
-            <div className="Left">
-              <p className="DescL"><strong>Every Voice Coalition, Steering Committee Member</strong></p>
-              <p className="Desc-info-L">Co-lead grassroots organization focused on political advocacy and community building around sexual violence prevention</p>
-              <p className="Desc-info-L">Plan, organize, and spearhead all grant-based, peer-to-peer, and philanthropic fundraising efforts </p>
-              <p className="Desc-info-L">Manage budgets, financial resources, and expenses for all Every Voice  initiatives</p>
-            </div>
-            <div className="Right">
-              <p className="DescR">Feb 2018 - present</p>
-            </div>
-          </div>
-
-          <div className="Row">
-            <div className="Left">
-              <p className="DescL"><strong>Tufts University, Action for Sexual Assault Prevention, President</strong></p>
-              <p className="Desc-info-L">Developed survivor disclosures, perpetrator accountability, & community culture workshops; hosted for 30+ groups</p>
-              <p className="Desc-info-L">Hosted annual event It Happens Here, attended by 1000+ students per year</p>
-            </div>
-            <div className="Right">
-              <p className="DescR">2014 - 2018</p>
-            </div>
-          </div>
-
-          <div className="Row">
-            <div className="Left">
-              <p className="DescL"><strong>Tufts University, Presidential Steering Committee on Sexual Violence, Student Representative</strong></p>
-              <p className="Desc-info-L">Advocated for student needs while collaborating with administration to propose University policy changes</p>
-            </div>
-            <div className="Right">
-              <p className="DescR">2016 - 2018</p>
-            </div>
-          </div>
-
-          <div className="Row">
-            <div className="Left">
-              <p className="DescL"><strong>Tufts University, Computer Science Department, Teaching Assistant</strong></p>
-              <p className="Desc-info-L">Led lab sessions, graded homework/exams, & hosted office hours for Introduction to C++ course</p>
-            </div>
-            <div className="Right">
-              <p className="DescR">2016 - 2017</p>
-            </div>
-          </div>
-
-          <div className="Row">
-            <div className="Left">
-              <p className="DescL"><strong>Samaritans & Call2Talk, Volunteer</strong></p>
-              <p className="Desc-info-L">Answered phone calls from individuals with intent, plans, or means for suicide</p>
-              <p className="Desc-info-L">Assessed caller risk levels, de-escalated crises, suggested short term solutions & offered relevant resources to callers</p>
-            </div>
-            <div className="Right">
-              <p className="DescR">2012 - 2018</p>
-            </div>
-          </div>
-
-          <p className="Header"> <strong> skills </strong> </p>
-          <hr className="Line"/>
-
-          <div className="Row">
-            <div className="Left">
-              <p className="Desc-info-L">Languages: Limited working proficiency in Spanish, Swahili, American Sign Language</p>
-              <p className="Desc-info-L">Programming Languages: Javascript, C++, HTML5, CSS3</p>
-              <p className="Desc-info-L">Software/Tooling: React, React Native, Node.js, Express.js, Passport.js, AJAX, jQuery, MongoDB, Git, Heroku, Webpack</p>
-              <p className="Desc-info-L">Certifications: CITI for Human Research Subjects & Behavioral Research, Rape Crisis Counseling, Suicide Prevention Counseling</p>
-            </div>
-
+          <div className="Right">
+            <p className="DescR">Nairobi, Kenya</p>
+            <p className="DescR">2015 - 2016</p>
           </div>
         </div>
-      )
-    }
-  }
 
-  export default Resume;
+        <p className="Header"> <strong> leadership positions </strong> </p>
+        <hr className="Line"/>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>Every Voice Coalition, Steering Committee Member</strong></p>
+            <p className="Desc-info-L">Co-lead grassroots organization focused on political advocacy and community building around sexual violence prevention</p>
+            <p className="Desc-info-L">Plan, organize, and spearhead all grant-based, peer-to-peer, and philanthropic fundraising efforts </p>
+            <p className="Desc-info-L">Manage budgets, financial resources, and expenses for all Every Voice  initiatives</p>
+          </div>
+          <div className="Right">
+            <p className="DescR">Feb 2018 - present</p>
+          </div>
+        </div>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>Tufts University, Action for Sexual Assault Prevention, President</strong></p>
+            <p className="Desc-info-L">Developed survivor disclosures, perpetrator accountability, & community culture workshops; hosted for 30+ groups</p>
+            <p className="Desc-info-L">Hosted annual event It Happens Here, attended by 1000+ students per year</p>
+          </div>
+          <div className="Right">
+            <p className="DescR">2014 - 2018</p>
+          </div>
+        </div>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>Tufts University, Presidential Steering Committee on Sexual Violence, Student Representative</strong></p>
+            <p className="Desc-info-L">Advocated for student needs while collaborating with administration to propose University policy changes</p>
+          </div>
+          <div className="Right">
+            <p className="DescR">2016 - 2018</p>
+          </div>
+        </div>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>Tufts University, Computer Science Department, Teaching Assistant</strong></p>
+            <p className="Desc-info-L">Led lab sessions, graded homework/exams, & hosted office hours for Introduction to C++ course</p>
+          </div>
+          <div className="Right">
+            <p className="DescR">2016 - 2017</p>
+          </div>
+        </div>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>Samaritans & Call2Talk, Volunteer</strong></p>
+            <p className="Desc-info-L">Answered phone calls from individuals with intent, plans, or means for suicide</p>
+            <p className="Desc-info-L">Assessed caller risk levels, de-escalated crises, suggested short term solutions & offered relevant resources to callers</p>
+          </div>
+          <div className="Right">
+            <p className="DescR">2012 - 2018</p>
+          </div>
+        </div>
+
+        <p className="Header"> <strong> skills </strong> </p>
+        <hr className="Line"/>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="Desc-info-L">Languages: Limited working proficiency in Arabic, Spanish, Swahili, American Sign Language</p>
+            <p className="Desc-info-L">Programming Languages: Javascript, C++, HTML5, CSS3, Stata, SPSS, Python, R</p>
+            <p className="Desc-info-L">Software/Tooling: React, React Native, Node.js, Express.js, Passport.js, AJAX, jQuery, MongoDB, Git, Heroku, Webpack</p>
+            <p className="Desc-info-L">Certifications: CITI for Human Research Subjects & Behavioral Research, Rape Crisis Counseling, Suicide Prevention Counseling</p>
+          </div>
+
+        </div>
+
+        <br></br>
+
+        <a className="Button" download href={BaileySiberResume}>pdf version</a>
+
+      </div>
+    )
+  }
+}
+
+export default Resume;

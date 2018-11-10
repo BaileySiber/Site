@@ -48,11 +48,6 @@ hr { margin-top: 0; }
   border-radius: 5px;
   padding: 1.5%;
   margin: 1%;
-  background-color: #dae2e8;
-}
-
-
-.Button:hover {
   background-color: #485167;
   color: white;
 }

@@ -1,6 +1,7 @@
 
 hr { margin-top: 0; }
 div { margin: 0 ; }
+a { text-decoration: none }
 
 .Main-section {
   font-size: large;
@@ -80,6 +81,17 @@ div { margin: 0 ; }
   font-size: 80%;
   text-align: left;
   margin-left: 5%;
+}
+
+.Button {
+  float: center;
+  font-family: palatino;
+  font-size: .75em;
+  border-radius: 5px;
+  padding: 1.5%;
+  margin: 1%;
+  background-color: #485167;
+  color: white;
 }
 
 .Line {
