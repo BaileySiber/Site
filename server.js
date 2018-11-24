@@ -30,7 +30,10 @@ app.post('/api/contact', function (req, res) {
   new Message(req.body)
     .save()
     .then((result) => res.json(result))
-    .catch((err) => res.status(500).end(err.message))
+    .catch((err) => {
+      console.log('didn not work!!')
+      res.status(500).end(err.message)
+    })
 });
 
 app.listen(process.env.PORT || 3001);
