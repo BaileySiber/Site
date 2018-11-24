@@ -16,10 +16,10 @@ const Message = mongoose.model('Message', {
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json())
 
-// var http = require("http");
-// setInterval(function() {
-//     http.get("https://bailey-site.herokuapp.com/");
-// }, 1500000);
+var http = require("http");
+setInterval(function() {
+    http.get("https://bailey-site.herokuapp.com/");
+}, 1500000);
 
 app.get('/api/test', function(req, res) {
   res.send('success');
