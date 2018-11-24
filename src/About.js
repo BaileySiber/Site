@@ -26,10 +26,3 @@ class About extends Component {
   }
 
   export default About;
-
-
-  <div className="Container">
-      <p className="BigGreen">This will be big and green</p>
-      <p className="LittleYellow"> This will be little and yellow!</p>
-      <p className="LittleYellow"><strong>This will be BOLD and little and yellow!</strong></p>
-  </div>
