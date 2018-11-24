@@ -33,6 +33,6 @@ app.post('/api/contact', function (req, res) {
     .catch((err) => res.status(500).end(err.message))
 });
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3001);
 
 //server.js
