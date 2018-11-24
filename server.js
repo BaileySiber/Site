@@ -36,6 +36,6 @@ app.post('/api/contact', function (req, res) {
     })
 });
 
-app.listen(process.env.PORT || port);
+app.listen(process.env.PORT || 3001);
 
 //server.js
