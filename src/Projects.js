@@ -23,7 +23,7 @@ class Projects extends Component {
           <br/>
 
           <p className="DescLittle">
-            i love to make personal and business sites - shoot me a message if you are interested! sliding scale for charges!
+            i love to make personal and business sites - shoot me a message if you are interested - charges are sliding scale!
           </p>
 
           <br/>
