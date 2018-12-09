@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import git from './git.png';
+import ev from './EV.jpg';
+import ergbot from './Ergbot.jpg';
+import siber from './SiberConsulting.jpg';
 
 
 class Projects extends Component {
@@ -13,6 +16,32 @@ class Projects extends Component {
 
           <div className="header">
             <p className="Desc">
+              Freelance Web Design and Development
+            </p>
+          </div>
+
+          <br/>
+
+          <p className="DescLittle">
+            i love to make personal and business sites - shoot me a message if you are interested! sliding scale for charges!
+          </p>
+
+          <br/>
+
+          <div className="imageRow">
+            <img src={ev} className="site" />
+            <img src={ergbot} className="site" />
+            <img src={siber} className="site" />
+          </div>
+
+          <br/>
+
+          <p></p>
+
+          <hr className="LineTwo"/>
+
+          <div className="header">
+            <p className="Desc">
               HeadSmart
             </p>
             <a href="https://github.com/BaileySiber/HeadSmart-Frontend">
@@ -21,14 +50,14 @@ class Projects extends Component {
         </div>
 
         <p className="DescMedium">
-          Mental health app to help users track and improve their mood overtime
+          mental health app to help users track and improve their mood overtime
         </p>
 
         <p className="DescLittle">
-          Coming Soon - Look for us on the App Store in 2019!
+          coming soon - look for us on the app store in 2019!
         </p>
         <p className="DescLittle">
-          Please contact me if you are interested in beta testing :)
+          please contact me if you are interested in beta testing :)
         </p>
 
         <br/>

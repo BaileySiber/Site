@@ -137,7 +137,7 @@ class Resume extends Component {
             <p className="Desc-info-L">Manage budgets, financial resources, and expenses for all Every Voice  initiatives</p>
           </div>
           <div className="Right">
-            <p className="DescR">Feb 2018 - present</p>
+            <p className="DescR">2018 - 2019</p>
           </div>
         </div>
 

@@ -1,6 +1,18 @@
 
-
 hr { margin-top: 0; }
+
+.imageRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.site {
+  height: 180px;
+  width: 300px;
+  margin: 1%;
+}
 
 .Desc {
   font-family: palatino;

@@ -16,6 +16,10 @@ hr { margin-top: 0; }
   text-align: left;
 }
 
+.link:hover {
+    color: #a8c7ea;
+}
+
 
 .item {
   font-family: palatino;
