@@ -85,7 +85,7 @@ class Contact extends Component {
 
             <div>
               <p className="Desc">
-                your message was sent!
+                Your message was sent!
               </p>
               <img src={fox} className="fox" />
               <p></p>
@@ -95,31 +95,31 @@ class Contact extends Component {
 
             <div>
               <p className="Desc">
-                fill this out and i will be in touch!
+                Fill this out and I will be in touch!
               </p>
               <p></p>
 
               <form>
                 <label className="label">
-                  name*:
+                  Name*:
                   <p></p>
                   <textarea onChange={this.onNameChange} className="input" type="text" name="name" />
                 </label>
                 <p></p>
                 <label className="label">
-                  email address*:
+                  Email address*:
                   <p></p>
                   <textarea onChange={this.onEmailChange} className="input" type="text" name="email" />
                 </label>
                 <p></p>
                 <label className="label">
-                  subject*:
+                  Subject*:
                   <p></p>
                   <textarea onChange={this.onSubjectChange} className="input" type="text" name="email" />
                 </label>
                 <p></p>
                 <label className="label">
-                  message*:
+                  Message*:
                   <p></p>
                   <textarea onChange={this.onMessageChange} className="message" type="textarea" name="message" />
                 </label>

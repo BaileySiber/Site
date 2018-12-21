@@ -23,7 +23,7 @@ class Projects extends Component {
           <br/>
 
           <p className="DescLittle">
-            i love to make personal and business sites - shoot me a message if you are interested - charges are sliding scale!
+            I love to make personal and business sites - shoot me a message if you are interested - charges are sliding scale!
           </p>
 
           <br/>
@@ -42,7 +42,7 @@ class Projects extends Component {
 
           <div className="header">
             <p className="Desc">
-              HeadSmart
+              Head Smart
             </p>
             <a href="https://github.com/BaileySiber/HeadSmart-Frontend">
             <img src={git} className="git" />
@@ -50,14 +50,14 @@ class Projects extends Component {
         </div>
 
         <p className="DescMedium">
-          mental health app to help users track and improve their mood overtime
+          Mental health app to help users track and improve their mood overtime
         </p>
 
         <p className="DescLittle">
-          coming soon - look for us on the app store in 2019!
+          Coming soon - look for us on the app store in 2019!
         </p>
         <p className="DescLittle">
-          please contact me if you are interested in beta testing :)
+          Please contact me if you are interested in beta testing :)
         </p>
 
         <br/>

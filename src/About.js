@@ -10,15 +10,15 @@ class About extends Component {
     return (
       <div className="Container">
           <hr className="Line"/>
-          <p className="Desc"><strong>hi, it's nice to meet you!</strong></p>
+          <p className="Desc"><strong>Hi, it's nice to meet you!</strong></p>
           <p></p>
             <img src={bailey} className="Bailey" />
-          <p className="DescOne"><strong>some things about me...</strong></p>
-          <p className="DescTwo"> - i strive to use technology to improve mental health care in a sustainable & accessible manner </p>
-          <p className="DescTwo"> - i am dedicated to seeking justice for survivors of sexual violence </p>
-          <p className="DescTwo"> - i am a proud middle eastern american woman in STEM & care deeply about making the field more inclusive </p>
-          <p className="DescTwo"> - i love to volunteer, sing, & hike whenever possible </p>
-          <p className="DescTwo"> - i don't like being surprised, but i love surprising others (hint: play with the clouds on my home page!) </p>
+          <p className="DescOne"><strong>Some things about me...</strong></p>
+          <p className="DescTwo"> - I strive to use technology to make higher quality of life more accessible </p>
+          <p className="DescTwo"> - I am dedicated to seeking justice for survivors of sexual violence </p>
+          <p className="DescTwo"> - I am a proud middle eastern american woman in STEM & care deeply about making the field more inclusive </p>
+          <p className="DescTwo"> - I love to volunteer, sing, & hike whenever possible </p>
+          <p className="DescTwo"> - I don't like being surprised, but I love surprising others (hint: play with the clouds on my home page!) </p>
           <p></p>
           <hr className="Line"/>
       </div>

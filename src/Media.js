@@ -13,16 +13,16 @@ class Media extends Component {
           <p></p>
           <p></p>
 
-          <p className="Desc"><strong>sexual violence prevention & response work</strong></p>
+          <p className="Desc"><strong>Sexual Violence Prevention & Response Work</strong></p>
 
           <br></br>
 
-          <p className="item"><strong>op-ed</strong></p>
+          <p className="item"><strong>Op-Ed</strong></p>
             <p className="item"> Medium: <a className="link" href="https://medium.com/@baileysiber37/will-massachusetts-step-up-for-survivors-681c116ae591">Will Massachusetts Step Up for Survivors? </a></p>
 
               <br></br>
 
-          <p className="item"><strong>organizing</strong></p>
+          <p className="item"><strong>Organizing</strong></p>
             <p className="item"> Tufts Daily: <a className="link" href="https://tuftsdaily.com/news/2018/04/11/happens-projects-voices-of-sexual-assault-survivors/">It Happens Here</a></p>
             <p className="item"> Boston Globe: <a className="link" href="https://www.bostonglobe.com/metro/2018/08/09/prospects-murky-for-bill-address-campus-sexual-assault/H0JNakgfOioQceBuegBnOO/story.html">Proposed Bills</a></p>
             <p className="item"> Boston Globe: <a className="link" href="https://www.bostonglobe.com/metro/2018/04/10/college-students-rally-for-tougher-policies-prevent-campus-sexual-assaults/Cy70GFzss6QgYQ5RxtmnTM/story.html">State House Rally</a></p>
@@ -30,7 +30,7 @@ class Media extends Component {
 
             <br></br>
 
-          <p className="item"><strong>commentary</strong></p>
+          <p className="item"><strong>Commentary</strong></p>
             <p className="item"> Tufts Daily: <a className="link" href="https://tuftsdaily.com/news/2017/09/21/oeo-monitor-devos-public-notice-process-sexual-misconduct-policy/">Betsy DeVos' Sexual Misconduct Policy</a></p>
             <p className="item"> Tufts Daily: <a className="link" href="https://tuftsdaily.com/features/2017/11/17/sexual-assault-resources-campus/">#MeToo Movement</a></p>
 

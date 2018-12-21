@@ -8,13 +8,13 @@ class Resume extends Component {
       <div>
         <div>
           <hr className="Line"/>
-          <p className="Mission-header"> <strong> my mission </strong></p>
+          <p className="Mission-header"> <strong> My Mission </strong></p>
           <p className="Mission">
-            to harness my public health, clinical psychology, and computer science skills to make higher quality of life more accessible, particularly to marginalized communities
+            Use technology to empower people and make higher quality of life more accessible
           </p>
         </div>
 
-        <p className="Header"> <strong> education </strong> </p>
+        <p className="Header"> <strong> Education </strong> </p>
         <hr className="Line"/>
 
         <div className="Row">
@@ -40,14 +40,15 @@ class Resume extends Component {
           </div>
         </div>
 
-        <p className="Header"> <strong> work experience </strong> </p>
+        <p className="Header"> <strong> Work Experience </strong> </p>
         <hr className="Line"/>
 
         <div className="Row">
           <div className="Left">
             <p className="DescL"><strong>Collective Health, Operations Associate</strong></p>
-            <p className="Desc-info-L">- Spearhead strategies to optimize efficiency and scalability, build internal tools to improve processes</p>
-            <p className="Desc-info-L">- Process medical claims and collaborate with member advocates to resolve complicated health plan questions</p>
+            <p className="Desc-info-L">- Spearhead strategies to optimize efficiency and scalability</p>
+            <p className="Desc-info-L">- Build internal tools to improve workflows: slackbot to schedule meetings, </p>
+            <p className="Desc-extra-L"> emails automatically triggered by gsheet inputs, etc </p>
             <p className="Desc-info-L">- Track accuracy and timeliness around core metrics and troubleshoot operational challenges</p>
             <p className="Desc-info-L"><strong>Software: Excel, Javascript, Python, SQL</strong></p>
           </div>
@@ -59,7 +60,38 @@ class Resume extends Component {
 
         <div className="Row">
           <div className="Left">
-            <p className="DescL"><strong>Web Developer, Freelance</strong></p>
+            <p className="DescL"><strong>Ergbot, Web Designer and Front-End Engineer</strong></p>
+            <p className="Desc-info-L">- Design and develop website for automatic erg logger that records erg data from photo upload </p>
+            <p className="Desc-info-L">- Integrate RESTful APIs for computer vision capability and employ Google API for secure logins </p>
+            <p className="Desc-info-L">- Deploy express server on Heroku and mlab to store and access user information and events </p>
+            <p className="Desc-info-L">- Launched mobile application on App Store and launched website </p>
+            <p className="Desc-info-L"><strong>Software: CSS, HTML, Javascript, React, React Native</strong></p>
+          </div>
+          <div className="Right">
+            <p className="DescR">San Francisco, CA</p>
+            <p className="DescR">September 2018 - present</p>
+          </div>
+        </div>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>Head Smart, Full Stack Engineer</strong></p>
+            <p className="Desc-info-L">- Design and develop mobile-based mental health tool that allows users to journal, track their moods,</p>
+            <p className="Desc-extra-L"> and receive suggestions and exercises to improve their wellbeing	</p>
+            <p className="Desc-info-L">- Develop RESTful APIs to provide appropriate suggestions to users depending on their mood </p>
+            <p className="Desc-extra-L"> and react to user feedback on suggestion effectiveness </p>
+            <p className="Desc-info-L">- Deploy express server on Heroku and mlab to store and access user information and events </p>
+            <p className="Desc-info-L"><strong>Software: CSS, HTML, Javascript, React Native </strong></p>
+          </div>
+          <div className="Right">
+            <p className="DescR">San Francisco, CA</p>
+            <p className="DescR">July 2018 - present</p>
+          </div>
+        </div>
+
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>Freelance, Web Designer and Front-End Engineer</strong></p>
             <p className="Desc-info-L">- Consult with clients to outline website goals, illustrate wireframes, and discuss site functionality</p>
             <p className="Desc-info-L">- Develop user-friendly architecture by programming site navigation, social media links, and organizing </p>
             <p className="Desc-extra-L"> site content into logical catalogs and flows.</p>
@@ -67,14 +99,14 @@ class Resume extends Component {
           </div>
           <div className="Right">
             <p className="DescR">San Francisco, CA</p>
-            <p className="DescR">June 2018 - present</p>
+            <p className="DescR">2017 - present</p>
           </div>
         </div>
 
         <div className="Row">
           <div className="Left">
             <p className="DescL"><strong>Massachusetts General Hospital, Disparities Research Unit, Research Assistant</strong></p>
-            <p className="Desc-info-L">- Conducted 50+ structured/semi-structured interviews with participants</p>
+            <p className="Desc-info-L">- Conducted qualitative & quantitative research with participants in marginalized communities</p>
             <p className="Desc-info-L">- Developed worksheets, surveys, & questionnaires administered to participants</p>
             <p className="Desc-info-L">- Contributed to literature reviews, systematic reviews, manuscripts, & presentations</p>
             <p className="Desc-info-L"><strong>Software: Python, R, REDCap, Stata, Tableau</strong></p>
@@ -100,26 +132,13 @@ class Resume extends Component {
 
         <div className="Row">
           <div className="Left">
-            <p className="DescL"><strong>Tufts University, Office for Equal Opportunity, Program Developer</strong></p>
+            <p className="DescL"><strong>Tufts University, Office for Equal Opportunity, Intern</strong></p>
             <p className="Desc-info-L">- Compiled resources for marginalized sexual assault survivors (undocumented, ESL, disabled, POC)</p>
             <p className="Desc-info-L">- Contributed to presentations & pamphlets given to 1000+ undergraduate students per year</p>
           </div>
           <div className="Right">
             <p className="DescR">Medford, MA</p>
             <p className="DescR">2016 - 2017</p>
-          </div>
-        </div>
-
-        <div className="Row">
-          <div className="Left">
-            <p className="DescL"><strong>McLean Hospital, Gunderson Residence, Community Residence Counselor</strong></p>
-            <p className="Desc-info-L">- Utilized Dialectical Behavioral Therapy for treatment of Borderline Personality Disorder patients</p>
-            <p className="Desc-info-L">- Led/co-led group-based therapy sessions & individual check-ins with patients</p>
-            <p className="Desc-info-L"><strong>Software: Epic, REDCap</strong></p>
-          </div>
-          <div className="Right">
-            <p className="DescR">Cambridge, MA</p>
-            <p className="DescR">2015 - 2017</p>
           </div>
         </div>
 
@@ -135,11 +154,25 @@ class Resume extends Component {
           </div>
           <div className="Right">
             <p className="DescR">Nairobi, Kenya</p>
-            <p className="DescR">2015 - 2016</p>
+            <p className="DescR">2016 - 2017</p>
           </div>
         </div>
 
-        <p className="Header"> <strong> leadership positions </strong> </p>
+        <div className="Row">
+          <div className="Left">
+            <p className="DescL"><strong>McLean Hospital, Gunderson Residence, Community Residence Counselor</strong></p>
+            <p className="Desc-info-L">- Utilized Dialectical Behavioral Therapy for treatment of Borderline Personality Disorder patients</p>
+            <p className="Desc-info-L">- Led/co-led group-based therapy sessions & individual check-ins with patients</p>
+            <p className="Desc-info-L">- Collaborated with clinical care team to construct tailored treatment plans</p>
+            <p className="Desc-info-L"><strong>Software: Epic, REDCap</strong></p>
+          </div>
+          <div className="Right">
+            <p className="DescR">Cambridge, MA</p>
+            <p className="DescR">2015 - 2017</p>
+          </div>
+        </div>
+
+        <p className="Header"> <strong> Leadership Positions </strong> </p>
         <hr className="Line"/>
 
         <div className="Row">
@@ -192,11 +225,11 @@ class Resume extends Component {
             <p className="Desc-info-L">- Assessed caller risk levels, de-escalated crises, suggested short term solutions & offered relevant resources to callers</p>
           </div>
           <div className="Right">
-            <p className="DescR">2012 - 2018</p>
+            <p className="DescR">2013 - 2018</p>
           </div>
         </div>
 
-        <p className="Header"> <strong> skills </strong> </p>
+        <p className="Header"> <strong> Skills </strong> </p>
         <hr className="Line"/>
 
         <div className="Row">

@@ -77,7 +77,7 @@ class Home extends Component {
           <div className="Home-section">
             <hr className="Line"/>
             <p className="Welcome">
-              i'm passionate about the infrastructures of health systems and communities...click around to learn more!
+              I'm passionate about the infrastructures of health systems and communities...click around to learn more!
             </p>
             <hr className="Line"/>
           </div>

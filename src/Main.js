@@ -54,13 +54,13 @@ class Main extends Component {
       <div className="Background">
         <div className="Main">
           <div className="Main-section-top">
-            <p className="Main-title" onClick={() => this.toHome()}>bailey siber</p>
+            <p className="Main-title" onClick={() => this.toHome()}>Bailey Siber</p>
             <div className="Nav-bar">
-              <p className="Main-nav" onClick={() => this.toAbout()}>about me</p>
-              <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
-              <p className="Main-nav" onClick={() => this.toProjects()}>projects</p>
-              <p className="Main-nav" onClick={() => this.toMedia()}>media</p>
-              <p className="Main-nav" onClick={() => this.toContact()}>contact</p>
+              <p className="Main-nav" onClick={() => this.toAbout()}>About Me</p>
+              <p className="Main-nav" onClick={() => this.toResume()}>Resume</p>
+              <p className="Main-nav" onClick={() => this.toProjects()}>Projects</p>
+              <p className="Main-nav" onClick={() => this.toMedia()}>Media</p>
+              <p className="Main-nav" onClick={() => this.toContact()}>Contact</p>
             </div>
           </div>
 
@@ -111,7 +111,7 @@ class Main extends Component {
     </div>
 
     <div>
-      <p className="bottomTwo">(c) bailey siber 2018</p>
+      <p className="bottomTwo">(c) Bailey Siber 2018</p>
     </div>
 
   </div>
