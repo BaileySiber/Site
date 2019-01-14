@@ -10,16 +10,20 @@ class About extends Component {
     return (
       <div className="Container">
           <hr className="Line"/>
-          <p className="Desc"><strong>Hi, it's nice to meet you!</strong></p>
-          <p></p>
-            <img src={bailey} className="Bailey" />
-          <p className="DescOne"><strong>Some things about me...</strong></p>
-          <p className="DescTwo"> - I strive to use technology to make higher quality of life more accessible </p>
+          <br/>
+          <div className="typewriter"> <h1>Hi, it's nice to meet you!</h1> </div>
+          <div className="aboutBox">
+          <img src={bailey} className="Bailey" />
+          <div className="aboutBullets">
+          <p className="DescOne"><strong>Here's what you need to know about me:</strong></p>
+          <p className="DescTwo"> - I strive to use technology to make a higher quality of life more accessible </p>
           <p className="DescTwo"> - I am dedicated to seeking justice for survivors of sexual violence </p>
           <p className="DescTwo"> - I am a proud middle eastern american woman in STEM & care deeply about making the field more inclusive </p>
           <p className="DescTwo"> - I love to volunteer, sing, & hike whenever possible </p>
-          <p className="DescTwo"> - I don't like being surprised, but I love surprising others (hint: play with the clouds on my home page!) </p>
-          <p></p>
+          <p className="DescTwo"> - I don't like being surprised, but I love surprising others (hint: click on the clouds on my home page for a sunny treat!) </p>
+          </div>
+          </div>
+          <br/>
           <hr className="Line"/>
       </div>
     )}
