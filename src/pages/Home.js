@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Home.css';
-import sun from './sun.png'
-import building from './buildings.png'
+import '../css/Home.css';
+import sun from '../images/sun.png'
+import building from '../images/buildings.png'
 
 
 class Home extends Component {
@@ -77,7 +77,7 @@ class Home extends Component {
           <div className="Home-section">
             <hr className="Line"/>
             <p className="Welcome">
-              I'm passionate about the infrastructures of health systems and communities...click around to learn more!
+              I'm passionate about health systems and communities...click around to learn more!
             </p>
             <hr className="Line"/>
           </div>

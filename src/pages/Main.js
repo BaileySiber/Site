@@ -6,10 +6,10 @@ import Projects from './Projects'
 import Contact from './Contact'
 import Media from './Media'
 import About from './About'
-import linkedin from './linkedin.png'
-import fb from './fb.svg'
-import './Main.css';
-import medium from './medium.png'
+import linkedin from '../images/linkedin.png'
+import fb from '../images/fb.svg'
+import '../css/Main.css';
+import medium from '../images/medium.png'
 
 class Main extends Component {
   constructor(props) {

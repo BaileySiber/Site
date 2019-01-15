@@ -1,1 +1,1 @@
-My website!! Shows resume, projects, info about me, etc
+My website! Shows resume, projects, info about me, etc

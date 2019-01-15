@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './Media.css';
-import ihh from './ihh.jpg'
+import '../css/Media.css';
 
 
 class Media extends Component {

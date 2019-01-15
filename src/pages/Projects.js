@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Projects.css';
-import git from './git.png';
-import ev from './EV.jpg';
-import ergbot from './Ergbot.jpg';
-import siber from './SiberConsulting.jpg';
+import '../css/Projects.css';
+import git from '../images/git.png';
+import ev from '../images/EV.jpg';
+import ergbot from '../images/Ergbot.jpg';
+import siber from '../images/SiberConsulting.jpg';
 
 
 class Projects extends Component {

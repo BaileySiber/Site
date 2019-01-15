@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Contact.css';
-import fox from './fox.png'
+import '../css/Contact.css';
+import fox from '../images/fox.png'
 
 
 class Contact extends Component {
