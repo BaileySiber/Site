@@ -34,36 +34,36 @@ class Home extends Component {
 
             <div>
             {this.state.x1bool ?
-              <div onClick={()=> this.setState({x1bool:false})} class="x1">
-                <div class="cloud"></div>
+              <div onClick={()=> this.setState({x1bool:false})} className="x1">
+                <div className="cloud"></div>
               </div>
               : null
             }
 
             {this.state.x2bool ?
-              <div onClick={()=> this.setState({x2bool:false})} class="x2">
-                <div class="cloud"></div>
+              <div onClick={()=> this.setState({x2bool:false})} className="x2">
+                <div className="cloud"></div>
               </div>
               : null
             }
 
             {this.state.x3bool ?
-              <div onClick={()=> this.setState({x3bool:false})} class="x3">
-                <div class="cloud"></div>
+              <div onClick={()=> this.setState({x3bool:false})} className="x3">
+                <div className="cloud"></div>
               </div>
               : null
             }
 
             {this.state.x4bool ?
-              <div onClick={()=> this.setState({x4bool:false})} class="x4">
-                <div class="cloud"></div>
+              <div onClick={()=> this.setState({x4bool:false})} className="x4">
+                <div className="cloud"></div>
               </div>
               : null
             }
 
             {this.state.x5bool ?
-              <div onClick={()=> this.setState({x5bool:false})} class="x5">
-                <div class="cloud"></div>
+              <div onClick={()=> this.setState({x5bool:false})} className="x5">
+                <div className="cloud"></div>
               </div>
               : null
             }
