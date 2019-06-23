@@ -1,1 +1,3 @@
-My website! Shows resume, projects, info about me, etc
+## Personal Website 
+#### To display resume, projects, etc, and to play around with css animations/react things
+##### :)
