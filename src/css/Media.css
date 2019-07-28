@@ -31,3 +31,14 @@ hr { margin-top: 0; }
 .Line {
   color: #485167;
 }
+
+.mediaBox {
+  background-color: #f1f5f9;
+  flex: 2;
+  margin-left: 28%;
+  margin-right: 28%;
+  padding: 1%;
+  padding-top: .5%;
+  margin-bottom: 2%;
+  border-radius: 25px;
+}
