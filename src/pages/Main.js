@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { CSSTransitionGroup } from 'react-transition-group'
 import Home from './Home'
 import Resume from './Resume'
-import Projects from './Projects'
 import Contact from './Contact'
 import Media from './Media'
 import About from './About'
@@ -17,7 +16,6 @@ class Main extends Component {
     this.state = {
       home: true,
       resume: false,
-      projects: false,
       contact: false,
       media: false,
       about: false
@@ -25,27 +23,23 @@ class Main extends Component {
   }
 
   toResume(){
-    this.setState({home: false, resume: true, contact: false, projects: false, media: false, about: false})
+    this.setState({home: false, resume: true, contact: false, media: false, about: false})
   }
 
   toHome(){
-    this.setState({home: true, resume: false, contact: false, projects: false, media: false, about: false})
+    this.setState({home: true, resume: false, contact: false, media: false, about: false})
   }
 
   toContact(){
-    this.setState({home: false, resume: false, contact: true, projects: false, media: false, about: false})
-  }
-
-  toProjects(){
-    this.setState({home: false, resume: false, contact: false, projects: true, media: false, about: false})
+    this.setState({home: false, resume: false, contact: true, media: false, about: false})
   }
 
   toMedia(){
-    this.setState({home: false, resume: false, contact: false, projects: false, media: true, about: false})
+    this.setState({home: false, resume: false, contact: false, media: true, about: false})
   }
 
   toAbout(){
-    this.setState({home: false, resume: false, contact: false, projects: false, media: false, about: true})
+    this.setState({home: false, resume: false, contact: false, media: false, about: true})
   }
 
 
@@ -58,7 +52,6 @@ class Main extends Component {
             <div className="Nav-bar">
               <p className="Main-nav" onClick={() => this.toAbout()}>About Me</p>
               <p className="Main-nav" onClick={() => this.toResume()}>Resume</p>
-              <p className="Main-nav" onClick={() => this.toProjects()}>Projects</p>
               <p className="Main-nav" onClick={() => this.toMedia()}>Media</p>
               <p className="Main-nav" onClick={() => this.toContact()}>Contact</p>
             </div>
@@ -81,11 +74,6 @@ class Main extends Component {
               :
               null
             }
-            {this.state.projects ?
-              <Projects />
-              :
-              null
-            }
             {this.state.media ?
               <Media />
               :
@@ -105,13 +93,10 @@ class Main extends Component {
           <a href="https://medium.com/@baileysiber37">
           <img src={medium} className="Med" />
         </a>
-        <a href="https://www.facebook.com/bailey.siber.5">
-        <img src={fb} className="Fb" />
-      </a>
     </div>
 
     <div>
-      <p className="bottomTwo">(c) Bailey Siber 2019</p>
+      <p className="bottomTwo">(c) Bailey Siber 2020</p>
     </div>
 
   </div>
