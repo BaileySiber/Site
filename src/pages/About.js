@@ -21,7 +21,7 @@ class About extends Component {
           <p className="DescTwo"> - I am working to reduce disparities in quality of life and health outcomes by working at the intersections of technology, advocacy, and health.
  </p>
           <p className="DescTwo"> - I am dedicated to seeking justice for survivors of sexual violence </p>
-          <p className="DescTwo"> - I am a proud middle eastern american woman in STEM & care deeply about making the field more inclusive </p>
+          <p className="DescTwo"> - I am a proud middle eastern american woman in STEM & care deeply about diversity, equity, and retention efforts </p>
           <p className="DescTwo"> - I love to volunteer, sing, & hike whenever possible </p>
           <p className="DescTwo"> - I don't like being surprised, but I love surprising others (hint: click on the clouds on my home page for a sunny treat!) </p>
           </div>
