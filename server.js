@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true});
 
 const Message = mongoose.model('Message', {
   name: String,
