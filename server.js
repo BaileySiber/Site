@@ -1,5 +1,6 @@
 const express = require('express');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
+const serverless = require('serverless-http');
 const path = require('path');
 const app = express();
 const mongoose = require('mongoose');
@@ -39,5 +40,7 @@ app.post('/api/contact', function (req, res) {
 app.listen(process.env.PORT || 3001, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
+
+module.exports.handler = serverless(app);
 
 //server.js
