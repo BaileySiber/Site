@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/api/contact"
-  to = "https://bailey-site.herokuapp.com/api/contact"
-  status = 200
