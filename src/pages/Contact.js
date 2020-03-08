@@ -79,7 +79,6 @@ class Contact extends Component {
 
       <div className="Background">
         <div className="Home-section">
-          <hr className="Line"/>
 
           {this.state.saved ?
 
@@ -131,7 +130,6 @@ class Contact extends Component {
             </div>
           }
 
-          <hr className="Line"/>
         </div>
       </div>
     )}

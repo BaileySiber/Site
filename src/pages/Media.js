@@ -8,9 +8,6 @@ class Media extends Component {
     return (
       <div>
         <div className="Home-section">
-          <hr className="Line"/>
-          <p></p>
-          <p></p>
 
           <div className="mediaBox">
             <p className="item"><strong>Op-Ed</strong></p>
@@ -35,7 +32,6 @@ class Media extends Component {
           </div>
 
           <p></p>
-          <hr className="Line"/>
         </div>
       </div>
     )}

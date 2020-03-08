@@ -4,7 +4,6 @@ hr { margin-top: 0; }
 
 
 .label {
-  font-family: palatino;
   color: #485167;
   font-size: 90%;
 }
@@ -36,14 +35,12 @@ hr { margin-top: 0; }
 
 
 .Desc {
-  font-family: palatino;
   color: #485167;
   font-size: 80%;
 }
 
 
 .Button {
-  font-family: palatino;
   font-size: .75em;
   border-radius: 5px;
   padding: 1.5%;

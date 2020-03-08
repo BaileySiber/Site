@@ -45,16 +45,16 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="Background">
+      <div>
         <div className="Main">
           <div className="Main-section-top">
-            <p className="Main-title" onClick={() => this.toHome()}>Bailey Siber</p>
             <div className="Nav-bar">
-              <p className="Main-nav" onClick={() => this.toAbout()}>About Me</p>
-              <p className="Main-nav" onClick={() => this.toResume()}>Resume</p>
-              <p className="Main-nav" onClick={() => this.toMedia()}>Media</p>
-              <p className="Main-nav" onClick={() => this.toContact()}>Contact</p>
+              <p className="Main-nav" onClick={() => this.toAbout()}>about me</p>
+              <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
+              <p className="Main-nav" onClick={() => this.toMedia()}>media</p>
+              <p className="Main-nav" onClick={() => this.toContact()}>contact</p>
             </div>
+              <p className="Main-title" onClick={() => this.toHome()}>hi, i'm bailey!</p>
           </div>
 
             {this.state.home ?
@@ -96,7 +96,7 @@ class Main extends Component {
     </div>
 
     <div>
-      <p className="bottomTwo">(c) Bailey Siber 2020</p>
+      <p className="Bottom">(c) Bailey Siber 2020</p>
     </div>
 
   </div>
