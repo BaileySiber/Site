@@ -16,6 +16,12 @@ const Message = mongoose.model('Message', {
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json())
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "https://baileysiber.com");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 var http = require("http");
 setInterval(function() {
     http.get("https://bailey-site.herokuapp.com/");
