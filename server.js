@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
+const cors = require('cors');
 const app = express();
 const mongoose = require('mongoose');
 
@@ -13,13 +14,16 @@ const Message = mongoose.model('Message', {
   message: String
 })
 
+const corsOptions = {
+  origin: 'https://www.baileysiber.com',
+  methods: ['GET', 'PUT', 'POST'],
+  allowedHeaders: ['Content-Type']
+}
+
+app.options('*', cors())
+
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json())
-
-app.use(function(req, res, next) {
-res.header('Access-Control-Allow-Origin: *');
-next();
-});
 
 var http = require("http");
 setInterval(function() {
@@ -30,8 +34,7 @@ app.get('/api/test', function(req, res) {
   res.send('success');
 });
 
-app.post('/api/contact', function (req, res) {
-res.header('Access-Control-Allow-Origin: *');
+app.post('/api/contact', cors(corsOptions), function (req, res) {
   console.log(req.body)
   new Message(req.body)
     .save()

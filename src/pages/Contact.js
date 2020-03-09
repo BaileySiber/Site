@@ -52,7 +52,6 @@ class Contact extends Component {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'credentials': 'same-origin',
       },
       body: JSON.stringify({
         name: this.state.name,
