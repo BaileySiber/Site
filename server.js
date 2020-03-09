@@ -31,6 +31,7 @@ app.get('/api/test', function(req, res) {
 });
 
 app.post('/api/contact', function (req, res) {
+res.header('Access-Control-Allow-Origin: *');
   console.log(req.body)
   new Message(req.body)
     .save()
