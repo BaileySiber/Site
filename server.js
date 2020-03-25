@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const cors = require('cors');
 const app = express();
+const cors = require('cors');
 const mongoose = require('mongoose');
 
 mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true});
@@ -14,14 +14,7 @@ const Message = mongoose.model('Message', {
   message: String
 })
 
-const corsOptions = {
-  origin: 'https://www.baileysiber.com',
-  methods: ['GET', 'PUT', 'POST'],
-  allowedHeaders: ['Content-Type']
-}
-
-app.options('*', cors())
-
+app.use(cors());
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json())
 

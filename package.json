@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "concurrently": "^3.6.1",
+    "cors": "^2.8.5",
     "gh-pages": "^2.1.1",
     "mongoose": "^5.7.5",
     "react": "^16.4.2",
