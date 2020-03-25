@@ -49,6 +49,7 @@ class Contact extends Component {
 
 
     fetch('https://bailey-site.herokuapp.com/api/contact', {
+    // fetch('http://localhost:3001/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

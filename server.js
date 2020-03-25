@@ -27,7 +27,7 @@ app.get('/api/test', function(req, res) {
   res.send('success');
 });
 
-app.post('/api/contact', cors(corsOptions), function (req, res) {
+app.post('/api/contact', function (req, res) {
   console.log(req.body)
   new Message(req.body)
     .save()
