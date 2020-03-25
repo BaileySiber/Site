@@ -28,7 +28,7 @@ handleWindowSizeChange = () => {
 
   render() {
     const { width } = this.state;
-    const isMobile = width <= 500;
+    const isMobile = width <= 750;
 
     if (isMobile) {
 
