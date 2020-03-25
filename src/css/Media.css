@@ -36,7 +36,7 @@ hr { margin-top: 0; }
 }
 
 .mediaBox-mobile {
-  background-color: #f1f5f9;
+  background-color: blue;
   flex: 4;
   margin: 0% 18% 2% 18%;
   padding: .5% 1% 3% 1%;
