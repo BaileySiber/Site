@@ -3,6 +3,12 @@ hr { margin-top: 0; }
 div { margin: 0 ; }
 a { text-decoration: none }
 
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Button {
   float: center;
   font-size: .75em;
