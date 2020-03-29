@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Contact.css';
-import fox from '../images/fox.png'
+import fox from '../images/fox.png';
+import cloud from '../images/cloud.png';
 
 
 class Contact extends Component {
@@ -78,59 +79,57 @@ class Contact extends Component {
     return (
 
       <div className="Background">
-        <div className="Home-section">
 
           {this.state.saved ?
 
             <div>
               <p className="Desc">
-                Your message was sent!
+                your message was sent!
               </p>
               <img src={fox} className="fox" />
-              <p></p>
             </div>
 
             :
 
             <div>
+            <div className="contactCloudContainer">
               <p className="Desc">
-                Please fill this out and I will be in touch!
+                please fill this out and I will be in touch
               </p>
-              <p></p>
+              <img src={cloud} className='singleCloud' />
+            </div>
 
               <form>
                 <label className="label">
-                  Name*:
+                  name*:
                   <p></p>
                   <textarea onChange={this.onNameChange} className="input" type="text" name="name" />
                 </label>
                 <p></p>
                 <label className="label">
-                  Email address*:
+                  email address*:
                   <p></p>
                   <textarea onChange={this.onEmailChange} className="input" type="text" name="email" />
                 </label>
                 <p></p>
                 <label className="label">
-                  Subject*:
+                  subject*:
                   <p></p>
                   <textarea onChange={this.onSubjectChange} className="input" type="text" name="email" />
                 </label>
                 <p></p>
                 <label className="label">
-                  Message*:
+                  message*:
                   <p></p>
                   <textarea onChange={this.onMessageChange} className="message" type="textarea" name="message" />
                 </label>
                 <p></p>
                 <input className="Button" onClick={this.onClick} type="submit" value="submit" />
               </form>
+              </div>
 
-              <p></p>
-            </div>
           }
 
-        </div>
       </div>
     )}
   }

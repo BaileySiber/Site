@@ -3,10 +3,11 @@ hr { margin-top: 0; }
 div { margin: 0 ; }
 a { text-decoration: none }
 
-.Container {
+.resumeContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2%;
 }
 
 .Button {

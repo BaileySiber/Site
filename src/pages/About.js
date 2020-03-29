@@ -3,14 +3,14 @@ import '../css/About.css';
 import bailey from '../images/newb.png'
 
 
+
 class About extends Component {
 
 
   render() {
     return (
-      <div className="Container">
-          <br/>
-          <div className="typewriter"> <h2>it's nice to meet you</h2> </div>
+      <div className="aboutContainer">
+          <div className="typewriter"> <h2>it's nice to meet you</h2></div>
           <div className="aboutBox">
           <img src={bailey} className="Bailey" />
           <div className="aboutBullets">
