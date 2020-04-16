@@ -83,7 +83,7 @@ class Contact extends Component {
           {this.state.saved ?
 
             <div>
-              <p className="Desc">
+              <p className="desc">
                 your message was sent!
               </p>
               <img src={fox} className="fox" />
@@ -93,7 +93,7 @@ class Contact extends Component {
 
             <div>
             <div className="contactCloudContainer">
-              <p className="Desc">
+              <p className="desc">
                 please fill this out and I will be in touch
               </p>
               <img src={cloud} className='singleCloud' />
@@ -124,7 +124,7 @@ class Contact extends Component {
                   <textarea onChange={this.onMessageChange} className="message" type="textarea" name="message" />
                 </label>
                 <p></p>
-                <input className="Button" onClick={this.onClick} type="submit" value="submit" />
+                <input className="button" onClick={this.onClick} type="submit" value="submit" />
               </form>
               </div>
 

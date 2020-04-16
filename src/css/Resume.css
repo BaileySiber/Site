@@ -12,10 +12,20 @@ a { text-decoration: none }
 
 .Button {
   float: center;
-  font-size: .75em;
+  font-size: 100%;
   border-radius: 5px;
   padding: 1.5%;
-  margin: 1%;
+  margin: 5%;
+  background-color: #485167;
+  color: white;
+}
+
+.Button-mobile {
+  float: center;
+  font-size: 140%;
+  border-radius: 5px;
+  padding: 1.5%;
+  margin: 5%;
   background-color: #485167;
   color: white;
 }

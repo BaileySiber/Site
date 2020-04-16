@@ -5,7 +5,7 @@ hr { margin-top: 0; }
 
 .label {
   color: #485167;
-  font-size: 90%;
+  font-size: 120%;
   font-style: oblique;
 }
 
@@ -46,18 +46,18 @@ hr { margin-top: 0; }
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
-.Desc {
+.desc {
   color: #485167;
-  font-size: 80%;
+  font-size: 120%;
   font-style: oblique;
 }
 
 
-.Button {
-  font-size: .75em;
+.button {
+  font-size: 100%;
   border-radius: 5px;
   padding: 1.5%;
   margin: 1%;
