@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import '../css/Home.css';
 import sun from '../images/sun.png'
 import building from '../images/buildings.png'
-import svg from '../images/drawing.svg'
-
 
 class Home extends Component {
   constructor() {
