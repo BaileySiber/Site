@@ -8,12 +8,12 @@ class Home extends Component {
   constructor() {
     super()
     this.state = {
-      x1bool: true,
-      x2bool: true,
-      x3bool: true,
-      x4bool: true,
-      x5bool: true,
-      sun: false
+      x1bool: false,
+      x2bool: false,
+      x3bool: false,
+      x4bool: false,
+      x5bool: false,
+      sun: true
     }
   }
   render() {
@@ -74,12 +74,7 @@ class Home extends Component {
             </div>
 
           <img src={building} className="Buildings" />
-          <div className="Home-section">
-            <hr className="Line"/>
-            <p className="Welcome">
-              i am passionate about health systems and communities...click around to learn more
-            </p>
-          </div>
+
         </div>
     )}
   }

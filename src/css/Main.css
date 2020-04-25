@@ -9,30 +9,24 @@ p { margin-bottom: 0;}
 }
 
 .Main-section-top {
-  margin: 1% 10% 1% 10%;
-  color: #485167;
+  margin: 1% 25% 1% 25%;
 }
 
 .Main-title {
   margin-top: 3%;
   cursor: pointer;
-  font: italic normal 100 40px/2 'Pacifico', Helvetica, sans-serif;
-}
-
-.Main-title:hover {
-  color: #007887;
+  height: 50px;
 }
 
 .Nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2% 0% 1% 0%;
 }
 
 .Main-nav {
-  font-size: 120%;
+  font-size: 90%;
   cursor: pointer;
-  color: #485167;
 }
 
 .Main-nav:hover {
@@ -42,8 +36,7 @@ p { margin-bottom: 0;}
 
 .Bottom {
   text-align: center;
-  font-size: 90%;
-  color: #485167;
+  font-size: 60%;
   margin-bottom: 3%;
 }
 
@@ -71,8 +64,4 @@ p { margin-bottom: 0;}
   height: 5%;
   width: 3%;
   padding-bottom: 0.375%;
-}
-
-.Line {
-  color: #485167;
 }

@@ -7,6 +7,7 @@ import Media from './Media'
 import About from './About'
 import linkedin from '../images/linkedin.png'
 import fb from '../images/fb.svg'
+import sig from '../images/signature.png'
 import '../css/Main.css';
 import medium from '../images/medium.png'
 
@@ -46,15 +47,19 @@ class Main extends Component {
   render() {
     return (
       <div>
+
         <div className="Main">
+
+          <img className="Main-title" onClick={() => this.toHome()} src={sig} />
+
+
           <div className="Main-section-top">
             <div className="Nav-bar">
-              <p className="Main-nav" onClick={() => this.toAbout()}>about me</p>
-              <p className="Main-nav" onClick={() => this.toResume()}>resume</p>
-              <p className="Main-nav" onClick={() => this.toMedia()}>media</p>
-              <p className="Main-nav" onClick={() => this.toContact()}>contact</p>
+              <p className="Main-nav" onClick={() => this.toAbout()}>ABOUT</p>
+              <p className="Main-nav" onClick={() => this.toResume()}>RESUME</p>
+              <p className="Main-nav" onClick={() => this.toMedia()}>MEDIA</p>
+              <p className="Main-nav" onClick={() => this.toContact()}>CONTACT</p>
             </div>
-              <p className="Main-title" onClick={() => this.toHome()}>hi, i'm bailey!</p>
           </div>
 
             {this.state.home ?
@@ -96,7 +101,7 @@ class Main extends Component {
     </div>
 
     <div>
-      <p className="Bottom">(c) bailey siber 2020</p>
+      <p className="Bottom">(c) BAILEY SIBER 2020</p>
     </div>
 
   </div>
