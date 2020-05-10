@@ -37,7 +37,7 @@ class About extends Component {
       return (
 
         <div className="aboutContainer-mobile">
-          <div className="typewriter"> <h2>it's nice to meet you</h2></div>
+          {/* <div className="typewriter"> <h2>it's nice to meet you</h2></div> */}
           <div className="aboutBox-mobile">
             <img src={bailey} className="Bailey-mobile" />
             <div className="aboutBullets-mobile">
@@ -56,7 +56,7 @@ class About extends Component {
 
         return (
           <div className="aboutContainer">
-            <div className="typewriter"> <h2>it's nice to meet you</h2></div>
+            {/* <div className="typewriter"> <h2>Nice to meet you!</h2></div> */}
             <div className="aboutBox">
               <img src={bailey} className="Bailey" />
               <div className="aboutBullets">

@@ -52,7 +52,6 @@ class Main extends Component {
 
           <img className="Main-title" onClick={() => this.toHome()} src={sig} />
 
-
           <div className="Main-section-top">
             <div className="Nav-bar">
               <p className="Main-nav" onClick={() => this.toAbout()}>ABOUT</p>

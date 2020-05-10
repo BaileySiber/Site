@@ -2,11 +2,13 @@
 
 hr { margin-top: 0; }
 
+.Background{
+  animation: fadeInSlow 1s;
+}
 
 .label {
   color: #485167;
-  font-size: 120%;
-  font-style: oblique;
+  font-size: 70%;
 }
 
 .submit {
@@ -23,9 +25,9 @@ hr { margin-top: 0; }
 }
 
 .fox {
-  margin-top: 10%;
-  height: 20%;
-  width: 20%;
+  margin-top: 5%;
+  height: 12%;
+  width: 12%;
 }
 
 .message {
@@ -49,15 +51,14 @@ hr { margin-top: 0; }
   margin-bottom: 5%;
 }
 
-.desc {
+.foxWords {
   color: #485167;
-  font-size: 120%;
-  font-style: oblique;
+  font-size: 80%;
+  margin-top: 5%;
 }
 
-
 .button {
-  font-size: 100%;
+  font-size: 70%;
   border-radius: 5px;
   padding: 1.5%;
   margin: 1%;

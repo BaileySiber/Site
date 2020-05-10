@@ -74,6 +74,8 @@ class Home extends Component {
 
           <img src={building} className="Buildings" />
 
+          <p className="Tagline">Reducing disparities in quality of life & health outcomes by working at the intersections of technology, advocacy & health.</p>
+
         </div>
     )}
   }

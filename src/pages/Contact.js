@@ -43,7 +43,7 @@ class Contact extends Component {
   onClick = (event) => {
     event.preventDefault();
 
-    if (this.state.name.length == 0 || this.state.email.length == 0 || this.state.subject.length == 0 || this.state.message.length == 0) {
+    if (this.state.name.length == 0 || this.state.email.length == 0 || this.state.message.length == 0) {
       alert('please fill out all sections!')
       return
     }
@@ -58,7 +58,6 @@ class Contact extends Component {
       body: JSON.stringify({
         name: this.state.name,
         email: this.state.email,
-        subject: this.state.subject,
         message: this.state.message
       })
     })
@@ -83,7 +82,7 @@ class Contact extends Component {
           {this.state.saved ?
 
             <div>
-              <p className="desc">
+              <p className="foxWords">
                 your message was sent!
               </p>
               <img src={fox} className="fox" />
@@ -92,34 +91,28 @@ class Contact extends Component {
             :
 
             <div>
-            <div className="contactCloudContainer">
-              <p className="desc">
-                please fill this out and I will be in touch
-              </p>
-              <img src={cloud} className='singleCloud' />
-            </div>
 
               <form>
                 <label className="label">
-                  name*:
+                  Name*:
                   <p></p>
                   <textarea onChange={this.onNameChange} className="input" type="text" name="name" />
                 </label>
                 <p></p>
                 <label className="label">
-                  email address*:
+                  Email*:
                   <p></p>
                   <textarea onChange={this.onEmailChange} className="input" type="text" name="email" />
                 </label>
                 <p></p>
-                <label className="label">
-                  subject*:
+                {/* <label className="label">
+                  Subject*:
                   <p></p>
                   <textarea onChange={this.onSubjectChange} className="input" type="text" name="email" />
                 </label>
-                <p></p>
+                <p></p> */}
                 <label className="label">
-                  message*:
+                  Message*:
                   <p></p>
                   <textarea onChange={this.onMessageChange} className="message" type="textarea" name="message" />
                 </label>

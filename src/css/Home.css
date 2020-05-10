@@ -21,6 +21,15 @@ div { margin: 0;}
   width: 65%;
 }
 
+.Tagline {
+  text-align: center;
+  font-size: 70%;
+  margin: 1% 22% 0 22%;
+  padding: 1%;
+  border-radius: 20px;
+  background-color: #EBEBEB;
+}
+
 .Line {
   color: #485167;
 }
@@ -122,11 +131,11 @@ div { margin: 0;}
 
 .cloud {
 	background: #fff;
-	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
-	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	/* background: -moz-linear-gradient(top,  #EBEBEB 5%, #007887 100%); */
+	/* background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1)); */
+	background: -webkit-linear-gradient(top,  #E5F1F3 5%,#CCE4E7 100%);
+	/* background: -o-linear-gradient(top,  #EBEBEB 5%,#EBEBEB 100%); */
+	/* background: -ms-linear-gradient(top,  #EBEBEB 5%,#EBEBEB 100%); */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
 
 	-webkit-border-radius: 100px;
@@ -143,7 +152,7 @@ div { margin: 0;}
 }
 
 .cloud:after, .cloud:before {
-  background: #fff;
+  background: #E5F1F3;
 	content: '';
 	position: absolute;
 	z-indeX: -1;

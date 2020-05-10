@@ -37,11 +37,10 @@ class Media extends Component {
     if (isMobile) {
 
       return (
-        <div>
           <div className="container-mobile">
 
             <div className="mediaBox-mobile">
-              <p className="item-mobile"><strong>Action For Sexual Assault Prevention (ASAP)</strong></p>
+              <p className="item-mobile"><strong>Action For Sexual Assault Prevention</strong></p>
               <p className="item-mobile"><a className="link" href="https://tuftsdaily.com/news/2018/04/11/happens-projects-voices-of-sexual-assault-survivors/">Tufts Daily: It Happens Here</a></p>
               <p className="item-mobile"><a className="link" href="https://tuftsdaily.com/news/2017/09/21/oeo-monitor-devos-public-notice-process-sexual-misconduct-policy/">Tufts Daily: Betsy DeVos Proposed Policy</a></p>
               <p className="item-mobile"><a className="link" href="https://tuftsdaily.com/features/2017/11/17/sexual-assault-resources-campus/">Tufts Daily: #MeToo Movement</a></p>
@@ -62,13 +61,11 @@ class Media extends Component {
             </div>
 
           </div>
-        </div>
       )}
 
       else {
         return (
 
-          <div>
             <div className="container">
 
               <div className="mediaContainer">
@@ -104,7 +101,6 @@ class Media extends Component {
               </div>
 
             </div>
-          </div>
 
         )
       }
