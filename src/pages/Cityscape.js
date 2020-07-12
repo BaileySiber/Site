@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../css/Home.css';
+import '../css/Cityscape.css';
 import sun from '../images/sun.png'
 import building from '../images/buildings.png'
 
-class Home extends Component {
+class Cityscape extends Component {
   constructor() {
     super()
     this.state = {
@@ -19,6 +19,7 @@ class Home extends Component {
     return (
 
       <div>
+
           <div className="Clouds">
 
 
@@ -74,10 +75,8 @@ class Home extends Component {
 
           <img src={building} className="Buildings" />
 
-          <p className="Tagline">Reducing disparities in quality of life & health outcomes by working at the intersections of technology, advocacy & health.</p>
-
         </div>
     )}
   }
 
-  export default Home;
+  export default Cityscape;
