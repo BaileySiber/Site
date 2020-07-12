@@ -18,7 +18,7 @@ class Main extends Component {
       <div className="Main">
 
         <div className="mainTop">
-        <img className="mainTitle" src={sig} />
+        {/* <img className="mainTitle" src={sig} /> */}
         <img src={newb} className='B'/>
         </div>
 
