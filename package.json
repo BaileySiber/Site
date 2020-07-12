@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "concurrently -k 'node server.js' 'react-scripts start'",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
