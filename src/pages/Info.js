@@ -20,7 +20,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            right now, i’m helping to scale data integrations at <a href="https://www.devoted.com/">devoted health</a>, a health tech startup bringing compassion back to healthcare. i’m also leading <a href="https://www.hercampus.com/money-career/how-she-got-there/bridgette-wallace"> partnerships</a>/<a href="https://www.steamboston.com/gcode-interview-with-rizel-bobb-semple-bailey-siber/">programming </a>/misc things at <a href="https://www.thegcodehouse.com/">g|code</a>, a non profit providing housing, community, & technical training to womxn of color in boston. i’m humbled to additionally be partaking in the <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">anna faith jones & frieda garcia womxn of color leadership circle</a>.
+            right now, i’m helping to scale data integrations at <a href="https://www.devoted.com/">devoted health</a>, a health tech startup bringing compassion back to healthcare. i’m also leading <a href="https://www.hercampus.com/money-career/how-she-got-there/bridgette-wallace"> partnerships</a>/<a href="https://www.steamboston.com/gcode-interview-with-rizel-bobb-semple-bailey-siber/">programming</a>/misc things at <a href="https://www.thegcodehouse.com/">g|code</a>, a non profit providing housing, community, & technical training to womxn of color in boston. i’m humbled to additionally be partaking in the <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">anna faith jones & frieda garcia womxn of color leadership circle</a>.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            outside of all this, I have a healthy obsession with plants <span role="img" aria-label="plant"> 🌱 </span>& you'll likely find me hanging with my pup summit, relearning arabic for the tenth time, or generally exploring.
+            outside of all this, i have a healthy obsession with plants <span role="img" aria-label="plant"> 🌱 </span>& you'll likely find me hanging with my pup summit, relearning arabic for the tenth time, or generally exploring.
           </p>
         </div>
 
