@@ -4,7 +4,7 @@ import Cityscape from './Cityscape'
 import Info from './Info'
 import linkedin from '../images/linkedinlogo.png'
 import sig from '../images/signature.png'
-import newb from '../images/newb5.png'
+import newb from '../images/newbnew.png'
 import '../css/Main.css';
 import gmail from '../images/gmail.png'
 
