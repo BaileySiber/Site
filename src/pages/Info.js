@@ -14,14 +14,14 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            i’m bailey, an arab american technologist and activist dedicated to using tech to create sustainable, place-based social impact.
+            i’m bailey, an arab american technologist focused on addressing spatial and economic inequities in cities through housing, third spaces, and workforce development initiatives.
           </p>
         </div>
 
 
         <div className="infoChunk">
           <p>
-            right now, i'm leading partnerships at <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, a non profit that empowers young women and non-binary people of color to gain economic mobility by providing housing, community, and technical training. i'm also pursuing a masters in public policy at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a> in social and urban policy. finally, i’m excited to be a member of the <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">anna faith jones & frieda garcia women of color leadership circle</a>.
+            right now, i'm leading partnerships at <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, a non profit that empowers young women and non-binary people of color to gain economic mobility by providing housing, community, and technical training. i'm also pursuing a masters in public policy as a rappaport fellow at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a> in social and urban policy. finally, i’m excited to be a member of the <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">anna faith jones & frieda garcia women of color leadership circle</a>.
           </p>
         </div>
 
