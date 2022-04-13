@@ -18,7 +18,7 @@ class Main extends Component {
       <div className="Main">
 
         <div className="mainTop">
-        <p className="hello"> hello <span className='wave' role="img" aria-label="wave">👋🏼 </span> </p>
+        <p className="hello"> hello! <span className='wave' role="img" aria-label="wave">👋🏼 </span> </p>
         <img src={newb} className='B'/>
         </div>
 
