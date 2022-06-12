@@ -21,7 +21,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            right now, i'm pursuing a masters in public policy as a rappaport fellow at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a>, focusing on social and urban policy. i also serve as an advisor (and was a founding team member) at <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, a non profit that empowers Black, brown, and Indigenous women and non-binary folks to gain economic mobility by providing housing, community, and technical training. i’m also a happy alum of the <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">anna faith jones & frieda garcia women of color leadership circle</a>.
+            right now, i'm pursuing a masters in public policy as a rappaport fellow at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a>, focusing on social and urban policy. i also serve as an advisor (and was a founding team member) at <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, a non profit that empowers Black, brown, and Indigenous women and non-binary folks to gain economic mobility by providing technical training and wraparound supports. i’m also a happy alum of the <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">anna faith jones & frieda garcia women of color leadership circle</a>.
           </p>
         </div>
 
