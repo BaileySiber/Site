@@ -1,3 +1,3 @@
 ## Personal Website 
-#### To display resume, projects, etc, and to play around with css animations/react things
+#### Just a lil page idk
 ##### :)
