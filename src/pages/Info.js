@@ -14,7 +14,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            i’m bailey, an arab american technologist focused on addressing spatial, economic, and racial inequities in cities through innovative community economic development and placemaking initiatives.
+            hi! i’m bailey, an arab american technologist focused on addressing spatial, economic, and racial inequities in cities through innovative community economic development and placemaking initiatives.
           </p>
         </div>
 

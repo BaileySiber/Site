@@ -15,9 +15,9 @@
 
 
   .mainTop {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    /* display: flex;
+    flex-direction: row; */
+    /* align-items: baseline; */
     margin: 0% 20% 0% 20%;
   }
 
@@ -29,9 +29,8 @@
   }
 
   .B {
-    width: 23%;
-    margin-top: 1%;
-    margin-left: 1%;
+    width: 45%;
+    margin-top: 3%;
     align-self: flex-end;
   }
 
