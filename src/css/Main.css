@@ -29,8 +29,8 @@
   }
 
   .B {
-    width: 55%;
-    margin-top: 5%;
+    width: 50%;
+    margin-top: 3%;
     align-self: flex-end;
   }
 
@@ -97,7 +97,8 @@
   }
 
   .B {
-    width: 40%;
+    width: 50%;
+    margin-top: 3%;
   }
 
   .wave {
