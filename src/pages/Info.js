@@ -14,20 +14,20 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            hi! i’m bailey, an arab american technologist focused on addressing spatial, economic, and racial inequities in cities through innovative community economic development and placemaking initiatives.
+            hi! i’m bailey, a technologist and researcher focused on economic mobility and empowerment, racial justice, and state and local governments. 
           </p>
         </div>
 
 
         <div className="infoChunk">
           <p>
-            right now, i'm pursuing a masters in public policy as a <a href="https://rappaportfoundation.org/initiatives/publicpolicy/"> rappaport fellow</a> at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a>, focusing on social and urban policy. i also serve as an advisor at <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, a non profit that empowers Black, brown, and Indigenous women and non-binary folks to gain economic mobility by providing technical training and wraparound supports. i’m also a happy alum of the boston foundation's <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">women of color leadership circle</a> and the <a href="https://www.boston.gov/departments/new-urban-mechanics"> monum</a> civic innovation fellowship.
+            right now, i'm pursuing a masters in public policy as a <a href="https://rappaportfoundation.org/initiatives/publicpolicy/"> rappaport fellow</a> at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a>, concentrating in social and urban policy. additionally, i serve as an advisor at <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, a non profit that empowers black, latine, and indigenous women and non-binary folks to gain economic mobility by providing technical training and wraparound supports. i’m also a happy alum of the boston foundation's <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/nonprofit-effectiveness/women-of-color-leadership-circle">women of color leadership circle</a> and the <a href="https://www.boston.gov/departments/new-urban-mechanics"> monum</a> civic innovation fellowship.
           </p>
         </div>
 
         <div className="infoChunk">
           <p>
-            in my spare time, you'll find me playing stardew valley, obsessing over plants, or watching vocal coaches react to songs on youtube.
+            in my spare time, you'll find me playing stardew valley, sewing, or watching vocal coaches react to songs on youtube.
           </p>
         </div>
 
