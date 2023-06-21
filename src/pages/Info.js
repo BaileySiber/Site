@@ -27,7 +27,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            in my spare time, you'll find me exploring public libraries / parks, sewing, or watching vocal coach reactions on youtube.
+            in my spare time, you'll find me exploring public libraries and parks, sewing, or watching vocal coach reactions on youtube.
           </p>
         </div>
 
