@@ -14,7 +14,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            hi, i’m bailey (أو عفيفي)
+            hi, i’m bailey! (أو عفيفي)
           </p>
         </div>
 
