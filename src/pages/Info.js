@@ -14,7 +14,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            hi, i’m bailey! 
+            hi, i’m bailey (أو عفيفي)
           </p>
         </div>
 
@@ -27,7 +27,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            prior to okc, i completed my masters in public policy as a <a href="https://rappaportfoundation.org/initiatives/publicpolicy/"> rappaport fellow</a> at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a>, worked with the city of boston's <a href="https://www.boston.gov/departments/new-urban-mechanics"> civic innovation team</a>, helped launch the nonprofit <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, participated in the <a href="https://www.tbf.org/what-we-do/strategic-focus-areas/social-justice-ecology/women-of-color-leadership-circle"> women of color leadership circle</a>, and held various technologist roles at several startups. my throughline has always been leveraging innovation to drive economic mobility and empowerment, particularly for minoritized populations.   
+            prior to okc, i completed my masters in public policy as a <a href="https://rappaportfoundation.org/initiatives/publicpolicy/"> rappaport fellow</a> at the <a href="https://www.hks.harvard.edu/"> harvard kennedy school</a>, worked with the city of boston's <a href="https://www.boston.gov/departments/new-urban-mechanics"> civic innovation team</a>, helped launch the nonprofit <a href="https://www.thegcodehouse.com/">g&#123;code&#125;</a>, and held various technologist roles at several startups. my throughline has always been leveraging innovation to drive economic mobility and empowerment, particularly for minoritized populations.   
           </p>
         </div>
 
@@ -42,7 +42,6 @@ class Info extends Component {
             please feel free to reach out to chat local gov, share great music, or anything else!
           </p>
         </div>
-
 
       </div>
 
