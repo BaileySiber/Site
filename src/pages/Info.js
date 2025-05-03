@@ -21,7 +21,7 @@ class Info extends Component {
 
         <div className="infoChunk">
           <p>
-            i am currently working as the deputy chief of staff to the <a href="https://www.okc.gov/government/mayor"> mayor of oklahoma city</a>. before that, i was working in oklahoma city's <a href="https://www.okc.gov/government/office-of-innovation"> office of innovation</a> as a <a href="https://www.cityleadership.harvard.edu/city-hall-fellowships"> bloomberg harvard city hall fellow</a>.  
+            i am currently working as the chief of staff to the <a href="https://www.okc.gov/government/mayor"> mayor of oklahoma city</a>. before that, i was working in oklahoma city's <a href="https://www.okc.gov/government/office-of-innovation"> office of innovation</a> as a <a href="https://www.cityleadership.harvard.edu/city-hall-fellowships"> bloomberg harvard city hall fellow</a>.  
           </p>
         </div>
 
